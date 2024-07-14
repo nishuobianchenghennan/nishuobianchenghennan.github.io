@@ -6,12 +6,14 @@
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
     <meta name="keywords" content="program day2, zh-CN">
     <meta name="description" content="kssolv 3.0程序中的类AtomAtom 使用的两种方式：
-12% 元素符号表示的原子的相关信息Atom(&amp;#x27;Si&amp;#x27;)
+% 元素符号表示的原子的相关信息
+Atom(&amp;#39;Si&amp;#39;)
 
-12% 原子序数表示的原子相关信息Atom(14)
+% 原子序数表示的原子相关信息
+Atom(14)
 
 可以将多个原子的信息放在一个列表当中
-1">
+a1 &amp;#">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -431,24 +433,37 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="kssolv-3-0"><a href="#kssolv-3-0" class="headerlink" title="kssolv 3.0"></a>kssolv 3.0</h1><h2 id="程序中的类"><a href="#程序中的类" class="headerlink" title="程序中的类"></a>程序中的类</h2><h3 id="Atom"><a href="#Atom" class="headerlink" title="Atom"></a>Atom</h3><p>Atom 使用的两种方式：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 元素符号表示的原子的相关信息</span></span><br><span class="line">Atom(<span class="string">&#x27;Si&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 元素符号表示的原子的相关信息
+Atom(&#39;Si&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 原子序数表示的原子相关信息</span></span><br><span class="line">Atom(<span class="number">14</span>)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 原子序数表示的原子相关信息
+Atom(14)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>可以将多个原子的信息放在一个列表当中</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a1 = Atom(<span class="string">&#x27;H&#x27;</span>);</span><br><span class="line">a2 = Atom(<span class="string">&#x27;O&#x27;</span>);</span><br><span class="line">alist = [a1,a1,a2];</span><br><span class="line"><span class="keyword">for</span> <span class="built_in">j</span> = <span class="number">1</span>:<span class="number">2</span></span><br><span class="line">	alist(<span class="built_in">j</span>) =a1;</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">alist(<span class="number">3</span>) = a2;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">a1 &#x3D; Atom(&#39;H&#39;);
+a2 &#x3D; Atom(&#39;O&#39;);
+alist &#x3D; [a1,a1,a2];
+for j &#x3D; 1:2
+	alist(j) &#x3D;a1;
+end
+alist(3) &#x3D; a2;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h3 id="Ggrid"><a href="#Ggrid" class="headerlink" title="Ggrid"></a>Ggrid</h3><p>跟踪用户定义的动能截止参数Ecut所定义的倒数空间网格点集的类</p>
 <p>KSSOLV可以处理半径为$r&#x3D;\sqrt{\text { Ecut }^{2} &#x2F; 2}$的区域</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构建函数返回一个空的Ggrid对象</span></span><br><span class="line">Ggrid();</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-MATLAB" data-language="MATLAB"><code class="language-MATLAB">% 构建函数返回一个空的Ggrid对象
+Ggrid();<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一组与mol对象中定义的单位（超）晶胞相关的倒易空间网格点，这些网格点还满足mol中指定的能量截止点Ecut</span></span><br><span class="line">Ggrid(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一组与mol对象中定义的单位（超）晶胞相关的倒易空间网格点，这些网格点还满足mol中指定的能量截止点Ecut
+Ggrid(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回与mol对象中的单位（超）晶胞相关的一组倒易空间网格点，这些网格点符合作为输入指定的能量截止点Ecut</span></span><br><span class="line">Ggrid(mol,ecut);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回与mol对象中的单位（超）晶胞相关的一组倒易空间网格点，这些网格点符合作为输入指定的能量截止点Ecut
+Ggrid(mol,ecut);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回由gx,gy,gz定义并满足Ecut约束条件的一组倒易空间网格点</span></span><br><span class="line">Ggrid(gx,gy,gz,ecut);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回由gx,gy,gz定义并满足Ecut约束条件的一组倒易空间网格点
+Ggrid(gx,gy,gz,ecut);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 返回Ggrid对象ggrid的属性值的函数，属性名称由下面定义的关键字符串指定</span></span><br><span class="line">val = get(ggrid,key);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 返回Ggrid对象ggrid的属性值的函数，属性名称由下面定义的关键字符串指定
+val &#x3D; get(ggrid,key);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>类属性列表：</p>
 <p>ecut ：</p>
@@ -479,13 +494,37 @@
 <blockquote>
 <p>一个数组，给出每个有效倒易空间网格点的 Z 坐标。</p>
 </blockquote>
-<h3 id="Molecule"><a href="#Molecule" class="headerlink" title="Molecule"></a>Molecule</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% </span></span><br><span class="line">Molecule(key1,value1,key2,value2,……)</span><br><span class="line"><span class="comment">%输入mol得到molecule的所有的相关信息</span></span><br><span class="line">mol = </span><br><span class="line">	Molecule with <span class="keyword">properties</span>:</span><br><span class="line">	name: <span class="string">&#x27;SiH4&#x27;</span></span><br><span class="line">	supercell:[<span class="number">3</span>×<span class="number">3</span> double]</span><br><span class="line">	atoms:[<span class="number">2</span>×<span class="number">1</span> Atom]</span><br><span class="line">	alist:[<span class="number">5</span>×<span class="number">1</span> double]</span><br><span class="line">	xyzlist: [<span class="number">5</span>×<span class="number">3</span> double]</span><br><span class="line">	ecut: <span class="number">12.5</span></span><br><span class="line">	n1:<span class="number">32</span></span><br><span class="line">	n2:<span class="number">32</span></span><br><span class="line">	n3:<span class="number">32</span></span><br><span class="line">	vext:[<span class="number">32</span>×<span class="number">32</span>×<span class="number">32</span> double]</span><br><span class="line">	nspin : <span class="number">1</span></span><br><span class="line">	temperature:<span class="number">0</span></span><br><span class="line">	natoms:[<span class="number">4</span> <span class="number">1</span>]</span><br><span class="line">	vol: <span class="number">1000</span></span><br><span class="line">	nel: <span class="number">8</span></span><br><span class="line">	ppvar:[]</span><br><span class="line">	xyzforce:[]</span><br></pre></td></tr></table></figure>
+<h3 id="Molecule"><a href="#Molecule" class="headerlink" title="Molecule"></a>Molecule</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 
+Molecule(key1,value1,key2,value2,……)
+%输入mol得到molecule的所有的相关信息
+mol &#x3D; 
+	Molecule with properties:
+	name: &#39;SiH4&#39;
+	supercell:[3×3 double]
+	atoms:[2×1 Atom]
+	alist:[5×1 double]
+	xyzlist: [5×3 double]
+	ecut: 12.5
+	n1:32
+	n2:32
+	n3:32
+	vext:[32×32×32 double]
+	nspin : 1
+	temperature:0
+	natoms:[4 1]
+	vol: 1000
+	nel: 8
+	ppvar:[]
+	xyzforce:[]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 使用参数中指定的(key,value)设置分子对象：</span></span><br><span class="line">set(mol,key1,value1,key2,value2,……)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 使用参数中指定的(key,value)设置分子对象：
+set(mol,key1,value1,key2,value2,……)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 检索分子对象 :attr:mol 中与键相关联的属性。</span></span><br><span class="line">get(mol,key,value)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 检索分子对象 :attr:mol 中与键相关联的属性。
+get(mol,key,value)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 当分子对象的某些属性已被重置时，重置该分子对象的所有属性。</span></span><br><span class="line">finalize(mol)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 当分子对象的某些属性已被重置时，重置该分子对象的所有属性。
+finalize(mol)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>class attribution list:</p>
 <p>name</p>
@@ -549,13 +588,26 @@
 <p>一个整数，表示电子（自旋极化）或电子对（自旋非极化）的数量</p>
 </blockquote>
 <h3 id="Crystal"><a href="#Crystal" class="headerlink" title="Crystal"></a>Crystal</h3><p>晶体是一个定义周期系单元格的类，除了包含K点属性外，该类与分子类几乎完全相同</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Crystal(key1,value1,kay2,value2,kay3,value3,……)</span><br><span class="line"><span class="comment">% 使用（键、值）对的Crystal构建函数，每个键是一个字符串，后买你跟一个常数(整数、浮点数、字符)。</span></span><br><span class="line"><span class="keyword">properties</span></span><br><span class="line">	supercell</span><br><span class="line">	atoms</span><br><span class="line">	alist</span><br><span class="line">	xyzlist</span><br><span class="line">	ecutwfc</span><br><span class="line">	kpots <span class="comment">%k点</span></span><br><span class="line">	wks <span class="comment">%有待考察</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Crystal(key1,value1,kay2,value2,kay3,value3,……)
+% 使用（键、值）对的Crystal构建函数，每个键是一个字符串，后买你跟一个常数(整数、浮点数、字符)。
+properties
+	supercell
+	atoms
+	alist
+	xyzlist
+	ecutwfc
+	kpots %k点
+	wks %有待考察
+end<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 使用参数中指定的 (key,value) 对设置 Crystal 对象 :attr:cry 的属性。</span></span><br><span class="line">set(cry,key1,value1,key2,value2……)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 使用参数中指定的 (key,value) 对设置 Crystal 对象 :attr:cry 的属性。
+set(cry,key1,value1,key2,value2……)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 读取 Crystal 对象 :attr:mol 中与键相关联的属性。</span></span><br><span class="line">get(cry,key,value)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 读取 Crystal 对象 :attr:mol 中与键相关联的属性。
+get(cry,key,value)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 当 Crystal 对象的某些属性已被重置时，重置该对象的所有属性。</span></span><br><span class="line">finalize(cry)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 当 Crystal 对象的某些属性已被重置时，重置该对象的所有属性。
+finalize(cry)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>name</p>
 <blockquote>
@@ -613,15 +665,20 @@
 <blockquote>
 <p>指定自旋类型的整数（1 &#x3D; 自旋非极化，2 &#x3D; 自旋极化）</p>
 </blockquote>
-<h3 id="Wavefun"><a href="#Wavefun" class="headerlink" title="Wavefun"></a>Wavefun</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个空的 Wavefun 对象。</span></span><br><span class="line">Wavefun()</span><br></pre></td></tr></table></figure>
+<h3 id="Wavefun"><a href="#Wavefun" class="headerlink" title="Wavefun"></a>Wavefun</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个空的 Wavefun 对象。
+Wavefun()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 返回实空间中大小为 n1 乘 n2 乘 n3 的零波函数的构造函数</span></span><br><span class="line">Wavefun(n1,n2,n3)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 返回实空间中大小为 n1 乘 n2 乘 n3 的零波函数的构造函数
+Wavefun(n1,n2,n3)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 返回 n 个零波函数的构造函数，每个函数在实空间的大小为 n1 乘 n2 乘 n3</span></span><br><span class="line">Wavefun(n1,n2,n3,nols)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 返回 n 个零波函数的构造函数，每个函数在实空间的大小为 n1 乘 n2 乘 n3
+Wavefun(n1,n2,n3,nols)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个带有单元数组 psi 指定的平面波系数的 Wavefun 对象。</span></span><br><span class="line">Wavefun(<span class="built_in">psi</span>)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个带有单元数组 psi 指定的平面波系数的 Wavefun 对象。
+Wavefun(psi)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数返回一个 Wavefun 对象，该对象的平面波系数由单元数组 psi 指定，大小为 n1 x n2 x n3（实数空间）。</span></span><br><span class="line">Wavefun(<span class="built_in">psi</span>,n1,n2,n3)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数返回一个 Wavefun 对象，该对象的平面波系数由单元数组 psi 指定，大小为 n1 x n2 x n3（实数空间）。
+Wavefun(psi,n1,n2,n3)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p><strong>abs, fft3, ifft3, qr, svd, conj</strong></p>
@@ -673,13 +730,17 @@
 <blockquote>
 <p>一个整数数组，给出每个存储波函数的占位编号。</p>
 </blockquote>
-<h3 id="BlochWavefun"><a href="#BlochWavefun" class="headerlink" title="BlochWavefun()"></a>BlochWavefun()</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个空的 BlochWavefun 对象。</span></span><br><span class="line">BlochWavefun()</span><br></pre></td></tr></table></figure>
+<h3 id="BlochWavefun"><a href="#BlochWavefun" class="headerlink" title="BlochWavefun()"></a>BlochWavefun()</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个空的 BlochWavefun 对象。
+BlochWavefun()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数返回与单元数组 psi（包含 nkpts 单元）指定的平面波系数相关联的 BlochWavefun 对象。:attr`psi` 的每个单元都是一个有 ncols 列的二维数组。</span></span><br><span class="line">BlochWavefun(<span class="built_in">psi</span>)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数返回与单元数组 psi（包含 nkpts 单元）指定的平面波系数相关联的 BlochWavefun 对象。:attr&#96;psi&#96; 的每个单元都是一个有 ncols 列的二维数组。
+BlochWavefun(psi)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数返回一个 BlochWavefun 对象，该对象与单元数组 psi（包含 nkpts 单元）指定的平面波系数相关联。每个单元都是一个 n1*n2*n3 乘 ncols 的数组。</span></span><br><span class="line">BlochWavefun(<span class="built_in">psi</span>,n1,n2,n3)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数返回一个 BlochWavefun 对象，该对象与单元数组 psi（包含 nkpts 单元）指定的平面波系数相关联。每个单元都是一个 n1*n2*n3 乘 ncols 的数组。
+BlochWavefun(psi,n1,n2,n3)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数返回与单元数组 psi 指定的平面波系数相关联的 BlochWavefun 对象，单元数组 psi 包含 nkpts 单元以及与每个 k 点相关的权重。每个单元都是 n1*n2*n3 乘 ncols 的数组。</span></span><br><span class="line">BlochWavefun(<span class="built_in">psi</span>,n1,n2,n3,wks)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数返回与单元数组 psi 指定的平面波系数相关联的 BlochWavefun 对象，单元数组 psi 包含 nkpts 单元以及与每个 k 点相关的权重。每个单元都是 n1*n2*n3 乘 ncols 的数组。
+BlochWavefun(psi,n1,n2,n3,wks)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <blockquote>
 <p><strong>abs, fft3, ifft3, qr, svd, conj</strong></p>
@@ -691,11 +752,14 @@
 <p>如果 Wavefun 对象的维度匹配，也可以将它们连接起来，例如 Z &#x3D; [XY]。</p>
 </blockquote>
 <p>具体的参数信息可参考上一个Wavefun的内容，其是完全一致的</p>
-<h3 id="ham"><a href="#ham" class="headerlink" title="ham"></a>ham</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个空的 Ham 对象。</span></span><br><span class="line">Ham()</span><br></pre></td></tr></table></figure>
+<h3 id="ham"><a href="#ham" class="headerlink" title="ham"></a>ham</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个空的 Ham 对象。
+Ham()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回与分子对象 mol 相关联的哈密顿对象。</span></span><br><span class="line">Ham(mol)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回与分子对象 mol 相关联的哈密顿对象。
+Ham(mol)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个与分子对象 mol 和指定电子密度 rho（浮点数的三维数组）相关联的哈密顿对象。</span></span><br><span class="line">Ham(mol,rho)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个与分子对象 mol 和指定电子密度 rho（浮点数的三维数组）相关联的哈密顿对象。
+Ham(mol,rho)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>相关参数：<br>n1</p>
 <blockquote>
@@ -741,11 +805,14 @@
 <blockquote>
 <p>三维阵列，包含与哈密顿相关的电子密度。</p>
 </blockquote>
-<h3 id="BlochHam"><a href="#BlochHam" class="headerlink" title="BlochHam"></a>BlochHam</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回一个空的 BlockHam 对象。</span></span><br><span class="line">BlockHam()</span><br></pre></td></tr></table></figure>
+<h3 id="BlochHam"><a href="#BlochHam" class="headerlink" title="BlochHam"></a>BlochHam</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回一个空的 BlockHam 对象。
+BlockHam()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数，返回与分子对象晶体相关联的 Bloch Hamiltonian 对象。</span></span><br><span class="line">BlockHam(crystal)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数，返回与分子对象晶体相关联的 Bloch Hamiltonian 对象。
+BlockHam(crystal)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 构造函数返回一个布洛赫哈密顿对象，该对象与晶体对象 Crystal 和指定的电子密度 rho（浮点数的三维数组）相关联。</span></span><br><span class="line">BlockHam(crystal, rho)</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 构造函数返回一个布洛赫哈密顿对象，该对象与晶体对象 Crystal 和指定的电子密度 rho（浮点数的三维数组）相关联。
+BlockHam(crystal, rho)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>相关参数：</p>
 <p>n1</p>
@@ -828,55 +895,68 @@
 </blockquote>
 <h3 id="自洽场迭代"><a href="#自洽场迭代" class="headerlink" title="自洽场迭代"></a>自洽场迭代</h3><p>在 Kohn-Sham 方程被平面波离散化之后，它们变成了一组非线性代数特征值方程组<br>$$<br>H(\rho(X))X&#x3D;X\Lambda<br>$$<br>其中待对角化矩阵是待计算特征向量 𝑋 的函数.需要计算的特征值（位于Λ 的对角线上）是 H 的 $n_e $个最小特征值，其中 ne 与电子数成正比。由于矩阵算子与其特征向量之间的这种非线性耦合，Kohn-Sham 方程比标准线性特征值问题更难求解.</p>
 <p>目前，解决这类问题最广泛使用的数值方法是自洽场（SCF）迭代法。稍后将讨论另一种方法，即直接最小化 Kohn-Sham 总能量的方法。这两种方法都已在 KSSOLV 中实现，用户可以计算与各种分子和固体相关的 Kohn-Sham 方程的解。</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% mol 是先前构造的分子对象。函数调用会返回一个分子对象，其中可能包含更新的原子力。SCF 程序结束时获得的分子总能量以及 Kohn-Sham 哈密顿的特征值和特征向量存储在 info 结构中。</span></span><br><span class="line">[mol,info] = scf(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% mol 是先前构造的分子对象。函数调用会返回一个分子对象，其中可能包含更新的原子力。SCF 程序结束时获得的分子总能量以及 Kohn-Sham 哈密顿的特征值和特征向量存储在 info 结构中。
+[mol,info] &#x3D; scf(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 给定特征向量矩阵 X 和电子密度 ρ 的初始猜测值</span></span><br><span class="line">[mol,H,X,Hprec,nocc] = scfinit(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 给定特征向量矩阵 X 和电子密度 ρ 的初始猜测值
+[mol,H,X,Hprec,nocc] &#x3D; scfinit(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 在 scfinit 函数中构建与 mol 相关联的初始哈密顿：</span></span><br><span class="line">H = Ham(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 在 scfinit 函数中构建与 mol 相关联的初始哈密顿：
+H &#x3D; Ham(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">%H 是一个包含动能和总势能（不包括非局部离子伪势能）信息的对象。特征向量矩阵 X 的初始猜测</span></span><br><span class="line">X = genX0(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">%H 是一个包含动能和总势能（不包括非局部离子伪势能）信息的对象。特征向量矩阵 X 的初始猜测
+X &#x3D; genX0(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% X 是一个 Wavefun 对象，包含傅里叶空间中波函数的网格和因子信息。生成哈密顿的预处理，其格式为 Wavefun：</span></span><br><span class="line">Hprec = genprec(H);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% X 是一个 Wavefun 对象，包含傅里叶空间中波函数的网格和因子信息。生成哈密顿的预处理，其格式为 Wavefun：
+Hprec &#x3D; genprec(H);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% nocc 是占据状态的数量。计算 Ewald 和 Ealphat，然后开始 SCF 迭代：</span></span><br><span class="line">Eewald = getEewald(mol);</span><br><span class="line">Ealphat = getEalphat(mol);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% nocc 是占据状态的数量。计算 Ewald 和 Ealphat，然后开始 SCF 迭代：
+Eewald &#x3D; getEewald(mol);
+Ealphat &#x3D; getEalphat(mol);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <p>SCF 程序可以用以下循环来描述</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">iter = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> (not converged and iter &lt; maxiter)</span><br><span class="line">   Compute the ne smallest eigenvalues and corresponding eigenvector of H</span><br><span class="line">   Update the eletron density, potential and H</span><br><span class="line">   iter = iter + <span class="number">1</span></span><br><span class="line"><span class="keyword">end</span> <span class="keyword">while</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">iter &#x3D; 1
+while (not converged and iter &lt; maxiter)
+   Compute the ne smallest eigenvalues and corresponding eigenvector of H
+   Update the eletron density, potential and H
+   iter &#x3D; iter + 1
+end while<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>​	$X^{i+1}$可以由$H^i$$X^{i+1}$ &#x3D; $X^{i+1}$$\Lambda^{i+1}$</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[X,ev] = KSeigs(mol, H, X, Hprec, options);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[X,ev] &#x3D; KSeigs(mol, H, X, Hprec, options);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>通过获取实空间波函数的平方模 $ρ^{i+1}$&#x3D;$diag(X^{i+1}∗X^{i+1}) $更新密度函数 ρ，并使用计算新特征函数得到的 ρ 更新 H：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rho = getcharge(mol, X, nocc);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">rho &#x3D; getcharge(mol, X, nocc);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>稍后再混合密度或混合潜力：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rho, dfmat, dvmat, cdfmat] = potmixing(mol, rhoin, rho, iterscf, mixtype, betamix, dfmat, dvmat, cdfmat, mixdim, brank);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[rho, dfmat, dvmat, cdfmat] &#x3D; potmixing(mol, rhoin, rho, iterscf, mixtype, betamix, dfmat, dvmat, cdfmat, mixdim, brank);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>动能和一些附加能量项的计算公式为</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ekin = (<span class="number">2</span>/nspin)*sum(ev(<span class="number">1</span>:nocc));</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Ekin &#x3D; (2&#x2F;nspin)*sum(ev(1:nocc));<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>Ekin 中包含了离子能和外部势能，还有不正确的 Ecoul 和 Exc。需要稍后更正。计算能量修正项：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ecor = getEcor(mol, rho, vtot, vion, vext);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Ecor &#x3D; getEcor(mol, rho, vtot, vion, vext);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>使用新的电荷密度计算哈特里和交换相关能和电势，并更新总电势：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vhart, vxc, uxc2, rho, uxcsr] = getVxc(mol,rho);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[vhart, vxc, uxc2, rho, uxcsr] &#x3D; getVxc(mol,rho);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>更新总势：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vtot = getVtot(vion,vext,vhart,vxc);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">vtot &#x3D; getVtot(vion,vext,vhart,vxc);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>如果用户没有选择密度混合，则混合潜力：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[vtot, dfmat, dvmat, cdfmat] = potmixing(mol, vtotin, vtot,iterscf, mixtype, betamix, dfmat, dvmat, cdfmat, mixdim, brank);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[vtot, dfmat, dvmat, cdfmat] &#x3D; potmixing(mol, vtotin, vtot,iterscf, mixtype, betamix, dfmat, dvmat, cdfmat, mixdim, brank);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>根据新的势能计算库仑势能和交换相关势能：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Ecoul = getEcoul(mol, <span class="built_in">abs</span>(rho), vhart);</span><br><span class="line">Exc   = getExc(mol, <span class="built_in">abs</span>(rho), uxc2);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Ecoul &#x3D; getEcoul(mol, abs(rho), vhart);
+Exc   &#x3D; getExc(mol, abs(rho), uxc2);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>计算本次 SCF 迭代的总能量：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Etot = Eewald + Ealphat + Ekin + Ecor + Ecoul + Exc;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">Etot &#x3D; Eewald + Ealphat + Ekin + Ecor + Ecoul + Exc;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>检查收敛情况，并在 SCF 收敛或达到最大迭代步数时中断循环。SCF 迭代后，计算原子力：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mol.xyzforce = getFtot(mol, H, X, rho);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">mol.xyzforce &#x3D; getFtot(mol, H, X, rho);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>然而，这种简单的程序很少收敛，因为它相当于对电子密度满足的一组非线性方程进行简单的定点迭代</p>
 <hr>
@@ -1002,17 +1082,17 @@
 <p>矩阵块 $ P(i) $ 定义第 $ i $个搜索方向，满足递推公式<br>$$<br>P(i) &#x3D; W(i) C2 + P(i-1) C3<br>$$<br>其中 $ P(1) $ 设置为空集， $P(2) $ 设置为 $ W(1) $。</p>
 <p>系数矩阵 $ C1, C2, C3 $ 是通过求解投影特征值问题<br>$$<br>(Y^* H Y) C &#x3D; (Y^* Y) C \Theta<br>$$<br>得到的，其中 $ Y &#x3D; (X(i), W(i), P(i-1)) $， $ C &#x3D; (C^*_1, C^*_2, C^*_3)^* $， $ \Theta $是包含项目Hamiltonian的 $ k $ 个最小特征值的对角矩阵。解投影特征值问题（3）和近似特征向量的更新通常被称为Rayleigh-Ritz过程。</p>
 <p>LOBPCG求解器的调用方式如下：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[X, lambda] = lobpcg(H, X0, prec, tol, maxit, verbose);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[X, lambda] &#x3D; lobpcg(H, X0, prec, tol, maxit, verbose);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>其中，$ H $ 是一个Hamiltonian对象，$ X0 $ 是一个波函数对象，存储所需特征向量的初始猜测，$ prec $ 是一个波函数对象，存储对角预条件器（在倒易空间），$ tol $ 是用户指定的收敛容限，$ maxit $ 是允许的最大迭代次数，$ verbose $ 控制LOBPCG迭代期间的诊断输出量。</p>
 <h4 id="Krylov-Schur-方法-diagbyeigs"><a href="#Krylov-Schur-方法-diagbyeigs" class="headerlink" title="Krylov Schur 方法 diagbyeigs()"></a>Krylov Schur 方法 diagbyeigs()</h4><p>KSSOLV2.0可以使用MATLAB的稀疏特征值求解器eigs()，实现隐式重启的Lanczos（或Krylov Schur）方法。这不是最快的求解器，因为它没有充分利用前一次SCF迭代产生的多个特征向量的近似值。此外，因为Hamiltonian每次与一个波函数（系数）相乘，所以并没有充分的并行化或数据移动优化机会。</p>
 <p>Krylov Schur求解器的调用方式如下：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[X, lambda] = diagbyeigs(H, neig, tol, maxit);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[X, lambda] &#x3D; diagbyeigs(H, neig, tol, maxit);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>其中，$ neig $ 是要计算的特征对的数量，$ maxit $ 是Krylov Schur算法中使用的隐式重启的最大次数。</p>
 <h4 id="切比雪夫滤波法-chebyfilt"><a href="#切比雪夫滤波法-chebyfilt" class="headerlink" title="切比雪夫滤波法 chebyfilt()"></a>切比雪夫滤波法 chebyfilt()</h4><p>在切比雪夫滤波法中，我们使用子空间迭代来计算 $ T_d(H; \alpha, \lambda_{ub}) $ 的主导特征值，其中 $ T_d(t; \alpha, \lambda_{ub}) $ 是一个 $ d $ 次的平移和缩放的切比雪夫多项式，在区间 [$ \alpha, \lambda_{ub} $] 上被限制为 -1 到 1， $ \alpha $ 是一个精心选择的参数，略高于我们需要计算的 $ H $ 的最大特征值（例如，最大占据态）， $ \lambda_{ub} $ 是 $ H $ 光谱的上界。该多项式被选择为放大 $ \alpha $ 左侧的特征值。</p>
 <p>切比雪夫滤波法的调用方式如下：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[X, lambda] = chebyfilt(H, X0, degree, lb, ub);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">[X, lambda] &#x3D; chebyfilt(H, X0, degree, lb, ub);<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>其中，$ degree $ 是多项式的次数，$ lb $ 是上述描述的参数 $ \alpha $， $ ub $ 是光谱 $ \lambda_{ub} $ 的上界。</p>
 <h4 id="Davidson-方法-davidson"><a href="#Davidson-方法-davidson" class="headerlink" title="Davidson 方法 davidson()"></a>Davidson 方法 davidson()</h4><p>在一定程度上，Davidson算法是LOBPCG算法的泛化。在第 $ i $ 次迭代中，LOBPCG算法从由 $ { W(i), X(i), X(i-1) } $ 张成的子空间中提取所需特征对的近似。在Davidson算法中，我们可以从更大的子空间中提取近似解：<br>$$<br>{ W(i), X(i), X(i-1), X(i-2), … }<br>$$<br>然而，随着子空间维度的增加，解决投影特征值问题的成本以及保持这种子空间正交基的困难性会显著增加，因此算法可能因此变得不稳定。</p>
@@ -1036,7 +1116,8 @@
 <p>我们需要通过解决 $ \int \rho(r) dr &#x3D; 2ne $ 来确定 $ \mu $。因为左侧是关于 $ \mu $ 的单调函数，所以可以通过二分法确定 $ \mu $。</p>
 <p>在KSSOLV2.0中，可以通过函数scf4m解决正则化的Kohn-Sham方程。该函数的接口与scf完全相同。要执行正则化模型的有限温度计算，</p>
 <p>我们需要在Molecule或Crystal输入对象中定义温度属性（以开尔文为单位）。例如，</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt; cry = Crystal(<span class="string">&#x27;supercell&#x27;</span>, C, <span class="string">&#x27;atomlist&#x27;</span>, atomlist, <span class="string">&#x27;xyzlist&#x27;</span>, xyzlist, ...</span><br><span class="line">   <span class="string">&#x27;ecutwfc&#x27;</span>, <span class="number">30</span>, <span class="string">&#x27;name&#x27;</span>, <span class="string">&#x27;Cu&#x27;</span>, <span class="string">&#x27;autokpts&#x27;</span>, autokpts, <span class="string">&#x27;temperature&#x27;</span>, <span class="number">300</span>);</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">&gt;&gt; cry &#x3D; Crystal(&#39;supercell&#39;, C, &#39;atomlist&#39;, atomlist, &#39;xyzlist&#39;, xyzlist, ...
+   &#39;ecutwfc&#39;, 30, &#39;name&#39;, &#39;Cu&#39;, &#39;autokpts&#39;, autokpts, &#39;temperature&#39;, 300);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
 <p>此外，我们需要初始化Wavefun输入对象，使其具有超过 $ ne $ 个波函数。</p>
 <p>请注意，我们保留scf.m和scf4m.m两者，以便可以轻松比较这两个求解器的差异，尽管可以使用scf4m.m执行零温度计算。</p>

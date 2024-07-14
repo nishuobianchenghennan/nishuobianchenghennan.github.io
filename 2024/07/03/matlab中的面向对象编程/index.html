@@ -23,7 +23,7 @@
 
 
 
-最简单的类的构建：12345678">
+最简单的类的构建：classdef">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -460,12 +460,42 @@
 </li>
 </ul>
 </blockquote>
-<h3 id="最简单的类的构建："><a href="#最简单的类的构建：" class="headerlink" title="最简单的类的构建："></a>最简单的类的构建：</h3><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">classdef</span> target  </span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">properties</span></span><br><span class="line">	AoA</span><br><span class="line">	range</span><br><span class="line">	signal</span><br><span class="line">	Aoa</span><br><span class="line">	<span class="keyword">end</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">methods</span></span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">newtarget</span> = <span class="title">target</span><span class="params">(AoA,range,signal)</span></span></span><br><span class="line">		<span class="keyword">if</span> nargin == <span class="number">3</span></span><br><span class="line">		newtarget.AoA = AoA;</span><br><span class="line">		newtarget.range = range;</span><br><span class="line">		newtarget.signal = signal;</span><br><span class="line">		<span class="keyword">end</span></span><br><span class="line">		<span class="keyword">end</span></span><br><span class="line">		<span class="function"><span class="keyword">function</span> <span class="title">identify</span><span class="params">(thistarget)</span></span></span><br><span class="line">		<span class="built_in">disp</span>([<span class="string">&#x27;i am a friend,please don&#x27;&#x27;t shoot.i am at &#x27;</span> num2str(thistarget.AoA)]);</span><br><span class="line">	<span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="最简单的类的构建："><a href="#最简单的类的构建：" class="headerlink" title="最简单的类的构建："></a>最简单的类的构建：</h3><pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">classdef target  
+	
+	
+	properties
+	AoA
+	range
+	signal
+	Aoa
+	end
+	
+	methods
+		function newtarget &#x3D; target(AoA,range,signal)
+		if nargin &#x3D;&#x3D; 3
+		newtarget.AoA &#x3D; AoA;
+		newtarget.range &#x3D; range;
+		newtarget.signal &#x3D; signal;
+		end
+		end
+		function identify(thistarget)
+		disp([&#39;i am a friend,please don&#39;&#39;t shoot.i am at &#39; num2str(thistarget.AoA)]);
+	end
 
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ballon = target; <span class="comment">%ballon是target类的一个实例</span></span><br></pre></td></tr></table></figure>
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">ballon &#x3D; target; %ballon是target类的一个实例<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>回顾：如何判断一个量是什么类型：</p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">% 方法一</span></span><br><span class="line">&gt;&gt; isa(ballon,<span class="string">&#x27;target&#x27;</span>); <span class="comment">%target是一个类</span></span><br><span class="line"><span class="built_in">ans</span> = </span><br><span class="line">	<span class="number">1</span></span><br><span class="line"><span class="comment">%方法二</span></span><br><span class="line">&gt;&gt; class(ballon);</span><br><span class="line"><span class="built_in">ans</span> = </span><br><span class="line">target</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">% 方法一
+&gt;&gt; isa(ballon,&#39;target&#39;); %target是一个类
+ans &#x3D; 
+	1
+%方法二
+&gt;&gt; class(ballon);
+ans &#x3D; 
+target<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
