@@ -99,10 +99,12 @@ blockquote {
     color: #666;
     background-color: rgba(66, 185, 131, .1);
 }
+
 pre {
     padding: 1.5rem 1.5rem 1.5rem 3.3rem !important;
     margin: 1rem 0 !important;
-    background: #272822;
+    background: 
+#272822;
     overflow: auto;
     border-radius: 0.35rem;
     tab-size: 4;
@@ -111,22 +113,29 @@ pre {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    background: #ff5f56;
+    background: 
+#ff5f56;
     width: 12px;
     height: 12px;
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    -webkit-box-shadow: 20px 0 
+#ffbd2e, 40px 0 
+#27c93f;
+    box-shadow: 20px 0 
+#ffbd2e, 40px 0 
+#27c93f;
 }
 code {
     padding: 1px 5px;
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
-    color: #e96900;
-    background-color: #f8f8f8;
+    color: 
+#e96900;
+    background-color: 
+#f8f8f8;
     border-radius: 2px;
 }
 .code_copy {
@@ -180,8 +189,10 @@ code {
 
 pre code {
     padding: 0;
-    color: #e8eaf6;
-    background-color: #272822;
+    color: 
+#e8eaf6;
+    background-color: 
+#272822;
 }
 
 pre[class*="language-"] {
@@ -191,7 +202,8 @@ pre[class*="language-"] {
 
 code[class*="language-"],
 pre[class*="language-"] {
-    color: #e8eaf6;
+    color: 
+#e8eaf6;
     white-space: pre-wrap !important;
 }
 
@@ -202,7 +214,8 @@ pre[class*="language-"] {
 .line-numbers {
     padding: 1.5rem 1.5rem 1.5rem 3.2rem !important;
     margin: 1rem 0 !important;
-    background: #272822;
+    background: 
+#272822;
     overflow: auto;
     border-radius: 0.35rem;
     tab-size: 4;
