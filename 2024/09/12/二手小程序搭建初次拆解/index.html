@@ -15,7 +15,7 @@
   
   <title>
     
-      Archives
+      二手小程序搭建初次拆解
     
     
     
@@ -108,131 +108,141 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2024</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">二手小程序搭建初次拆解</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2024-09-12 00:47:02
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        <h1 id="成本："><a href="#成本：" class="headerlink" title="成本："></a>成本：</h1><ol>
+<li>小程序认证费用：300一年</li>
+<li>域名（需要备案）（微信小程序硬性要求）：10-100每年     腾讯、阿里的都可以，或者其他渠道，域名渠道还是很多的</li>
+<li>服务器费用（2核2G就够用了）： 99一年</li>
+</ol>
+<h1 id="资质："><a href="#资质：" class="headerlink" title="资质："></a>资质：</h1><ol>
+<li>营业执照（大概率是要的）</li>
+</ol>
+<h1 id="技能："><a href="#技能：" class="headerlink" title="技能："></a>技能：</h1><ol>
+<li>熟悉微信向程序的开发框架和API</li>
+<li>学一下WXML，其实和HTML类似</li>
+<li>前端开发（三件套：html、js、css）、Vue</li>
+<li>后端开发（Python、Java、Node.js、PHP至少精通一个吧）</li>
+<li>数据库管理（MySQL）</li>
+<li>UI设计（Figma）</li>
+</ol>
+<p>说明：上述的各个模块列举出来的只是建议，如果会某个模块其他的更好</p>
+<h1 id="源码查找地址"><a href="#源码查找地址" class="headerlink" title="源码查找地址"></a>源码查找地址</h1><ol>
+<li>GitHub（<a target="_blank" rel="noopener" href="http://github.com)/">http://github.com）</a> —看了几个项目，好多割韭菜的</li>
+<li>Gitee ( <a target="_blank" rel="noopener" href="https://so.gitee.com/">https://so.gitee.com/</a>) —相关项目多，可以多下载几个学习一下</li>
+<li>csdn （ <a target="_blank" rel="noopener" href="https://www.csdn.net/">CSDN - 专业开发者社区</a>）——遇到不懂得地方在这上面查一下，非必要不付费，大部分资源都可以在网上找到的</li>
+<li>直接在google搜索引擎搜，大部分博客里也有开源的程序，也有对应的教程。</li>
+</ol>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2024/09/11/9-11%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2024-09-12 00:47:02
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="二手小程序搭建初次拆解">
-        <div class="time-m-d">09-12</div>
-        <div class="title">
-          <a href="/2024/09/12/%E4%BA%8C%E6%89%8B%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%90%AD%E5%BB%BA%E5%88%9D%E6%AC%A1%E6%8B%86%E8%A7%A3/">
-            <span>二手小程序搭建初次拆解</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="9.11读书笔记">
-        <div class="time-m-d">09-11</div>
-        <div class="title">
-          <a href="/2024/09/11/9-11%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-            <span>9.11读书笔记</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">Contents</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%90%E6%9C%AC%EF%BC%9A"><span class="toc-text">成本：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%B5%84%E8%B4%A8%EF%BC%9A"><span class="toc-text">资质：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8A%80%E8%83%BD%EF%BC%9A"><span class="toc-text">技能：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%BA%90%E7%A0%81%E6%9F%A5%E6%89%BE%E5%9C%B0%E5%9D%80"><span class="toc-text">源码查找地址</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="科研论学习day4">
-        <div class="time-m-d">09-10</div>
-        <div class="title">
-          <a href="/2024/09/10/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AD%A6%E4%B9%A0day4/">
-            <span>科研论学习day4</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="科研论学习day3">
-        <div class="time-m-d">09-09</div>
-        <div class="title">
-          <a href="/2024/09/09/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AD%A6%E4%B9%A0day3/">
-            <span>科研论学习day3</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="科研论学习2">
-        <div class="time-m-d">09-04</div>
-        <div class="title">
-          <a href="/2024/09/04/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AD%A6%E4%B9%A0day2/">
-            <span>科研论学习2</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="逻辑学学习资源整理">
-        <div class="time-m-d">09-02</div>
-        <div class="title">
-          <a href="/2024/09/02/%E9%80%BB%E8%BE%91%E5%AD%A6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/">
-            <span>逻辑学学习资源整理</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="科研论学习">
-        <div class="time-m-d">09-02</div>
-        <div class="title">
-          <a href="/2024/09/02/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AD%A6%E4%B9%A0day1/">
-            <span>科研论学习</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="科研论实践">
-        <div class="time-m-d">08-16</div>
-        <div class="title">
-          <a href="/2024/08/16/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AE%9E%E8%B7%B5/">
-            <span>科研论实践</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="今日见习汇总">
-        <div class="time-m-d">08-13</div>
-        <div class="title">
-          <a href="/2024/08/13/%E4%BB%8A%E6%97%A5%E8%A7%81%E4%B9%A0%E6%B1%87%E6%80%BB/">
-            <span>今日见习汇总</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="精品网站汇总">
-        <div class="time-m-d">08-12</div>
-        <div class="title">
-          <a href="/2024/08/12/%E7%B2%BE%E5%93%81%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB/">
-            <span>精品网站汇总</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="100个数学网站">
-        <div class="time-m-d">08-12</div>
-        <div class="title">
-          <a href="/2024/08/12/100%E4%B8%AA%E6%95%B0%E5%AD%A6%E7%BD%91%E7%AB%99/">
-            <span>100个数学网站</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="科研论学习（1）">
-        <div class="time-m-d">08-06</div>
-        <div class="title">
-          <a href="/2024/08/06/%E7%A7%91%E7%A0%94%E8%AE%BA%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/">
-            <span>科研论学习（1）</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -489,6 +499,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E4%BA%8C%E6%89%8B%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%90%AD%E5%BB%BA%E5%88%9D%E6%AC%A1%E6%8B%86%E8%A7%A3 + '&url=' + http%3A%2F%2Fnishuobianchenghennan.github.io%2F2024%2F09%2F12%2F%25E4%25BA%258C%25E6%2589%258B%25E5%25B0%258F%25E7%25A8%258B%25E5%25BA%258F%25E6%2590%25AD%25E5%25BB%25BA%25E5%2588%259D%25E6%25AC%25A1%25E6%258B%2586%25E8%25A7%25A3%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://nishuobianchenghennan.github.io/2024/09/12/%E4%BA%8C%E6%89%8B%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%90%AD%E5%BB%BA%E5%88%9D%E6%AC%A1%E6%8B%86%E8%A7%A3/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
