@@ -60,8 +60,7 @@
     }
   </script>
 <meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="NichoalsX's blog" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<link rel="stylesheet" href="/css/prism-okaidia.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+</head>
 
 
   <body>
@@ -167,23 +166,23 @@
 <h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><p>Attention：下述教程中的 gptac_venv 只是一个名字而已，可以随便命名，只要方便记忆即可，方便我们下次打开。</p>
 <ol>
 <li><p>创建 anaconda 环境</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">conda create -n gptac_venv pyhton&#x3D;3.11<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">conda create <span class="token operator">-</span>n gptac_venv pyhton<span class="token operator">=</span><span class="token number">3.11</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p>激活 anaconda 环境</p>
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">conda activate gptac_venv<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p>安装依赖</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">python -m pip install -r requirements.txt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">python <span class="token operator">-</span>m pip install <span class="token operator">-</span>r requirements<span class="token punctuation">.</span>txt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ol>
 <h3 id="下载项目"><a href="#下载项目" class="headerlink" title="下载项目"></a>下载项目</h3><p>项目地址：<a target="_blank" rel="noopener" href="https://github.com/binary-husky/gpt_academic">binary-husky&#x2F;gpt_academic: 为GPT&#x2F;GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读&#x2F;润色&#x2F;写作体验，模块化设计，支持自定义快捷按钮&amp;函数插件，支持Python和C++等项目剖析&amp;自译解功能，PDF&#x2F;LaTex论文翻译&amp;总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。 (github.com)</a></p>
 <p>也可以通过以下的一键命令进行下载，但提前是要安装好git,这里就先不介绍如何安装git了，大家可以直接浏览器搜索git进行下载</p>
 <p>如果你已经有了git，那么我们可以使用一键命令</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">git clone --depth&#x3D;1 https:&#x2F;&#x2F;github.com&#x2F;binary-husky&#x2F;gpt_academic.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">git clone <span class="token operator">-</span><span class="token operator">-</span>depth<span class="token operator">=</span><span class="token number">1</span> https<span class="token punctuation">:</span><span class="token operator">//</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>binary<span class="token operator">-</span>husky<span class="token operator">/</span>gpt_academic<span class="token punctuation">.</span>git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">cd gpt_academic<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>如果你没有这个git, 我们可以手动进行安装！</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">点击链接进入--code--Download Zip<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">点击链接进入<span class="token operator">-</span><span class="token operator">-</span>code<span class="token operator">-</span><span class="token operator">-</span>Download Zip<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <h3 id="配置API-key等变量"><a href="#配置API-key等变量" class="headerlink" title="配置API_key等变量"></a>配置API_key等变量</h3><h4 id="代理配置"><a href="#代理配置" class="headerlink" title="代理配置"></a>代理配置</h4><p>找到我们使用的代理的端口号，进入下载的学术版gpt的config.py程序，在这个配置文件里我们看到STEP2</p>
 <p>其中的描述是这样的：</p>
@@ -210,7 +209,7 @@
 <pre class="line-numbers language-python" data-language="python"><code class="language-python">conda activate gptac_venv<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li><p>运行main.py文件</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python">python main.py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python">python main<span class="token punctuation">.</span>py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ol>
 <p>当输入上述的指令之后，我们就进入到了学术版gpt的界面当中。</p>
 <h2 id="fofa扫描"><a href="#fofa扫描" class="headerlink" title="fofa扫描"></a>fofa扫描</h2><p>在开始教程之前，首先感谢@donggua大佬自建的fofa站点，让我可以更加顺利地写这个教程</p>
