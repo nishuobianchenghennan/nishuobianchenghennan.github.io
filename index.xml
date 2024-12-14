@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>网址导航</title>
-    <link>http://example.org/</link>
-    <description>Recent content on 网址导航</description>
+    <title>南华资源共享</title>
+    <link>http://nicholasx.ggff.net/</link>
+    <description>Recent content on 南华资源共享</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <copyright>NicholasX</copyright><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>NicholasX</copyright><atom:link href="http://nicholasx.ggff.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>子页面一</title>
-      <link>http://example.org/sub1/</link>
+      <link>http://nicholasx.ggff.net/sub1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/sub1/</guid>
+      <guid>http://nicholasx.ggff.net/sub1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>子页面二</title>
-      <link>http://example.org/sub2/</link>
+      <link>http://nicholasx.ggff.net/sub2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/sub2/</guid>
+      <guid>http://nicholasx.ggff.net/sub2/</guid>
       <description></description>
     </item>
     
