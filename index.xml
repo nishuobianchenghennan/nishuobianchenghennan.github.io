@@ -8,12 +8,17 @@
     <language>zh-CN</language>
     <copyright>NicholasX</copyright><atom:link href="http://nicholasx.ggff.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>关于本站</title>
       <link>http://nicholasx.ggff.net/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://nicholasx.ggff.net/about/</guid>
-      <description></description>
+      <description>关于本站 本站是 Hexo 主题 hexo-theme-webstack 的演示站点，致力于分享高质量资源与工具。
+ 关于站长 NicholasX
+核院大三小白一枚，欢迎大家一起讨论交流！
+ 人心惟危，道心惟微，惟精惟一，允执厥中！
+  联系我们 如果你对本站有任何建议或反馈，请联系站长：
+ 邮箱: NicholasX GitHub: [NicholasX](Your Repositories)   </description>
     </item>
     
     <item>
