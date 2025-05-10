@@ -1,0 +1,44 @@
+<svg
+  width="41"
+  height="41"
+  viewBox="0 0 41 41"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    x="27.877"
+    y="7.66069"
+    width="6.92163"
+    height="12.0376"
+    rx="3.46082"
+    transform="rotate(45 27.877 7.66069)"
+    fill="#66B2FF"
+  />
+  <rect
+    x="16.1729"
+    y="19.3645"
+    width="6.92163"
+    height="12.0376"
+    rx="3.46082"
+    transform="rotate(45 16.1729 19.3645)"
+    fill="#66B2FF"
+  />
+  <rect
+    x="19.3643"
+    y="24.2589"
+    width="6.92163"
+    height="12.0376"
+    rx="3.46082"
+    transform="rotate(-45 19.3643 24.2589)"
+    fill="#B3D9FF"
+  />
+  <rect
+    x="7.66113"
+    y="12.555"
+    width="6.92163"
+    height="12.0376"
+    rx="3.46082"
+    transform="rotate(-45 7.66113 12.555)"
+    fill="#B3D9FF"
+  />
+</svg>
