@@ -16,13 +16,13 @@ body,html{font-size:15px;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#6c757d;}
 /*主页导航栏字体颜色 -- end*/
 /*搜索activate图标颜色 -- start*/
-.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#6c757d transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
+.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:#ff0000 transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
 /*搜索activate图标颜色 -- end*/
 /*主页搜索搜索框头部字体颜色 -- start*/
-.header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big:not(.no-bg) .s-type-list{color:hsl(340, 85%, 45%)}
 /*主页搜索搜索框头部字体颜色 -- end*/
 /* 主页搜索搜索框底部字体颜色 -- start*/
-.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#6c757d!important}
+.header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:hsl(0, 100%, 50%), 92%, 46%)!important}
 /*主页搜索搜索框底部字体颜色 -- end*/
 /*主页header-banner底部宽度 -- start*/
 .post-top{padding-bottom:50px}
