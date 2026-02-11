@@ -2,7 +2,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mossbauer | 好用的导航</title>
-<<<<<<< HEAD
     <link>http://nav.8666886.xyz/</link>
     <description>Recent content on Mossbauer | 好用的导航</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -13,18 +12,6 @@
       <pubDate>Tue, 05 Nov 2019 19:41:12 -0500</pubDate>
       
       <guid>http://nav.8666886.xyz/about/</guid>
-=======
-    <link>https://uscvip.me/</link>
-    <description>Recent content on Mossbauer | 好用的导航</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://uscvip.me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>about</title>
-      <link>https://uscvip.me/about/</link>
-      <pubDate>Tue, 05 Nov 2019 19:41:12 -0500</pubDate>
-      
-      <guid>https://uscvip.me/about/</guid>
->>>>>>> 68cb9b2a66645652a02d61def836a41063a2b979
       <description></description>
     </item>
     
