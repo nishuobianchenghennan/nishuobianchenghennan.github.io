@@ -4,16 +4,16 @@
 
 - item: 作者
   icon: fa fa-user-secret
-  link: https://uscvip.me/nicholasx
+  link: https://blog.8666886.xyz
 
 - item: 博客
   icon: fa fa-blog
-  link: https://nicholasx.me/
+  link:  https://blog.8666886.xyz
 
-- item: 关于
+- item: USC资源库
   icon: fa fa-cog
   link: ""
   list:
-    - name: 源码
+    - name: USC资源库
       icon: fab fa-github-alt
-      link: "https://github.com/i-kirito/nav.github.io"
+      link: "https://my.feishu.cn/wiki/PaASwTqboiHSeNkM1vocWvXinYb?sheet=dXWHdo"

@@ -13,14 +13,14 @@ publishDir            = "docs"					# 站点静态文件保存目录
     description   = "Mossbauer | Hugo WebStack BY NicholasX"
     upload        ="https://avf6udlc442.feishu.cn/share/base/form/shrcnqxt3zxkQbxU5N4X6b4R4ab"  # 左侧导航栏的"网站提交"
     about         = "https://nicholasx.pages.dev/"	# 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://github.com/nishuobianchenghennan?tab=repositories"  
-    enablePreLoad = true					# 网站完全打开前预加载动画
+    repository    = "https://github.com/nishuobianchenghennan?tab=repositories"
+    enablePreLoad = false					# 网站完全打开前预加载动画（已禁用以提升加载速度）
     textPreLoad   = "Mossbauer"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = true					# 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/logos/default.webp"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     nightMode     = false					# 默认站点为深色(夜间)模式
-    yiyan         = true                         		# 默认启用一言服务
+    yiyan         = false                         		# 默认启用一言服务（已禁用以提升加载速度）
 
 [params.seo]    
     baiduhmid     = 'efccc04cb44fc49faddac5876180b369'		# 百度统计 hm.src 的 ID
