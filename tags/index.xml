@@ -2,9 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mossbauer | 好用的导航</title>
+<<<<<<< HEAD
     <link>http://nav.8666886.xyz/tags/</link>
     <description>Recent content in Tags on Mossbauer | 好用的导航</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language><atom:link href="http://nav.8666886.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <link>https://uscvip.me/tags/</link>
+    <description>Recent content in Tags on Mossbauer | 好用的导航</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language><atom:link href="https://uscvip.me/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> 68cb9b2a66645652a02d61def836a41063a2b979
   </channel>
 </rss>

@@ -1,0 +1,1485 @@
+- taxonomy: 站主推荐
+  icon: far fa-star
+  links:
+  - title: Mossbauer
+    logo: xazz.ico
+    url: http://nav.8666886.xyz
+    description: 丰富的导航站
+  - title: 博客
+    logo: xazz.ico
+    url: http://blog.8666886.xyz
+    description: 站长的博客
+  - title: 关于我
+    logo: xazz.ico
+    url: https://nicholasx.pages.dev/
+    description: 站长的个人介绍
+  - title: Sci-hub
+    logo: sci-hub.png
+    url: https://www.sci-hub.se/
+    description: 论文下载
+  - title: 文献互助平台
+    logo: wxhz.png
+    url: https://www.ablesci.com/
+    description: 文献互助平台
+  - title: lethub
+    logo: lethub.png
+    url: https://www.letpub.com.cn/index.php?page=./journalapp
+    description: 期刊查询
+  - title: chat小站
+    logo: xazz.ico
+    url: https://chat.8666886.xyz/
+    description: 基于ChatGPT的聊天机器人
+- taxonomy: 常用服务
+  icon: fas fa-gamepad
+  list:
+  - term: 校园服务
+    links:
+    - title: 南华教务
+      logo: USC.png
+      url: http://jwzx.usc.edu.cn:8924/
+      description: 南华大学教务系统
+    - title: 南华邮箱
+      logo: USC.png
+      url: http://mail.usc.edu.cn/
+      description: 南华大学邮箱系统
+    - title: 南华门户
+      logo: USC.png
+      url: https://cas.usc.edu.cn/lyuapServer/login
+      description: 南华大学门户系统
+    - title: 南华大学图书馆
+      logo: USC.png
+      url: https://3zt7td4f.mh.chaoxing.com/
+      description: 南华大学图书馆
+    - title: 图书馆校外服务
+      logo: USC.png
+      url: http://yglib.usc.edu.cn:8081/dbs-navigation
+      description: 南华大学图书馆校外服务
+    - title: 南华财务
+      logo: USC.png
+      url: https://cwc.usc.edu.cn/
+      description: 南华大学财务系统
+    - title: 学习通
+      logo: XXT.png
+      url: https://v8.chaoxing.com/
+      description: 学习通官方网址
+    - title: 知到
+      logo: ZD.png
+      url: https://www.zhihuishu.com/
+      description: 知到官方网址
+    - title: 格子达
+      logo: gezida.svg
+      url: https://co.gocheck.cn/
+      description: 大学生毕业设计
+  - term: 论文查重
+    links:
+    - title: 知网查重
+      logo: https://check.cnki.net/favicon.ico
+      url: https://check.cnki.net/#/
+      description: 知网查重（付费）
+    - title: 万方查重
+      logo: https://check.wanfangdata.com.cn/favicon.ico
+      url: https://check.wanfangdata.com.cn/
+      description: 万方查重（付费）
+    - title: 格子达
+      logo: https://www.gocheck.cn/favicon.ico
+      url: https://www.gocheck.cn/
+      description: 格子达查重（付费）
+    - title: 百度学术
+      logo: https://xueshu.baidu.com/favicon.ico
+      url: https://xueshu.baidu.com/usercenter/papercheck/
+      description: 百度学术（免费）
+    - title: PaperYY
+      logo: https://www.paperyy.com/favicon.ico
+      url: https://www.paperyy.com/
+      description: PaperYY查重（免费）
+    - title: PaperFree
+      logo: https://www.paperfree.cn/favicon.ico
+      url: https://www.paperfree.cn/
+      description: PaperFree（免费）
+  - term: 院校相关
+    links:
+    - title: 院校库
+      logo: https://gkcx.eol.cn/favicon.ico
+      url: https://gkcx.eol.cn/school/search
+      description: 全国高校信息查询
+    - title: 专业知识库
+      logo: https://yz.chsi.com.cn/favicon.ico
+      url: https://yz.chsi.com.cn/zyk/
+      description: 各学科专业详细介绍
+    - title: 青塔数据
+      logo: https://www.cingta.com/favicon.ico
+      url: https://www.cingta.com/
+      description: 高校数据分析平台
+    - title: 软科
+      logo: https://www.shanghairanking.cn/favicon.ico
+      url: https://www.shanghairanking.cn/
+      description: 中国大学排名
+    - title: 中国大学排行榜
+      logo: https://www.cnur.com/favicon.ico
+      url: https://www.cnur.com/
+      description: 对国内高校进行综合实力评估排名
+    - title: 世界大学排名
+      logo: https://www.qschina.cn/favicon.ico
+      url: https://www.qschina.cn/
+      description: QS世界大学排名
+    - title: 全国高等院校名单
+      logo: http://www.moe.gov.cn/favicon.ico
+      url: http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/
+      description: 教育部公布的全国高校名单
+    - title: 学科评估
+      logo: https://www.cdgdc.edu.cn/favicon.ico
+      url: https://www.cdgdc.edu.cn/xwyyjsjyxx/xkpgjg/
+      description: 教育部学位中心学科评估结果
+  - term: 考公考编
+    links:
+    - title: 国家公务员局
+      logo: http://bm.scs.gov.cn/favicon.ico
+      url: http://bm.scs.gov.cn/pp/gkweb/core/web/ui/business/home/gkhome.html
+      description: 国家公务员考试官方网站
+    - title: 中国人事考试网
+      logo: http://www.cpta.com.cn/favicon.ico
+      url: http://www.cpta.com.cn/
+      description: 人事考试信息发布平台
+    - title: 粉笔
+      logo: https://www.fenbi.com/favicon.ico
+      url: https://www.fenbi.com/
+      description: 公考培训平台
+    - title: 华图
+      logo: https://www.huatu.com/favicon.ico
+      url: https://www.huatu.com/
+      description: 公务员考试培训机构
+    - title: 中公
+      logo: https://www.offcn.com/favicon.ico
+      url: https://www.offcn.com/
+      description: 公职类考试培训
+    - title: 高顿
+      logo: https://www.gaodun.com/favicon.ico
+      url: https://www.gaodun.com/
+      description: 财经类考试培训
+    - title: 公开真题库
+      logo: https://www.gkzenti.cn/favicon.ico
+      url: https://www.gkzenti.cn/
+      description: 公务员考试真题
+    - title: 公考日历
+      logo: https://www.gjgwy.org/favicon.ico
+      url: https://www.gjgwy.org/
+      description: 公务员考试时间安排
+  - term: 搜书
+    links:
+    - title: 安娜的档案
+      logo: https://annas-archive.li/favicon.ico
+      url: https://annas-archive.li/
+      description: 全球最大的开放图书馆
+    - title: Z-Library
+      logo: https://z-lib.io/favicon.ico
+      url: https://z-lib.io/
+      description: 全球最大的数字图书馆
+    - title: 鸠摩搜书
+      logo: https://www.jiumodiary.com/favicon.ico
+      url: https://www.jiumodiary.com/
+      description: 电子书搜索引擎
+    - title: Library Genesis
+      logo: https://libgen.is/favicon.ico
+      url: https://libgen.is/
+      description: 科学文章和书籍搜索引擎
+    - title: Zlibrary搜索
+      logo: https://zlibrary-global.se/favicon.ico
+      url: https://zlibrary-global.se/
+      description: Z-Library镜像站
+    - title: 熊猫搜书
+      logo: https://ebook.huzerui.com/favicon.ico
+      url: https://ebook.huzerui.com/
+      description: 聚合多个电子书源
+    - title: 书享家
+      logo: http://www.shuxiangjia.cn/favicon.ico
+      url: http://www.shuxiangjia.cn/
+      description: 电子书资源分享
+    - title: 苦瓜书盘
+      logo: https://www.kgbook.com/favicon.ico
+      url: https://www.kgbook.com/
+      description: 电子书搜索下载
+    - title: ePUBee
+      logo: http://cn.epubee.com/favicon.ico
+      url: http://cn.epubee.com/
+      description: 电子书库
+    - title: 书单网
+      logo: https://www.shudan.vip/favicon.ico
+      url: https://www.shudan.vip/
+      description: 电子书搜索
+- taxonomy: 编程学习
+  icon: fas fa-laptop-code fa-lg
+  list:
+  - term: Web应用
+    links:
+    - title: 编程词典
+      url: http://dict.code-nav.cn/
+      logo: 编程词典.svg
+      description: 编程语言相关知识查询
+    - title: W3School
+      logo: W3School.ico
+      url: https://www.w3school.com.cn
+      description: 你可以找到你所需要的所有的网站建设教程
+    - title: Mozilla开发者社区
+      logo: mo.ico
+      url: https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web
+      description: MDN系统化学习web吧
+    - title: jsDelivr
+      logo: js.ico
+      url: https://www.jsdelivr.com/
+      description: 利用jsdelivr加速自己的图床
+    - title: GitHub主页美化
+      logo: fork.ico
+      url: https://zzetao.github.io/awesome-github-profile/
+      description: 查看GitHub开源作者的美化fork他们
+    - title: Runoob
+      logo: cainiao.ico
+      url: https://www.runoob.com/
+      description: Web菜鸟教程
+    - title: Markdown
+      logo: markdown.ico
+      url: https://markdown.com.cn/
+      description: markdown语法教程
+    - title: jQuery插件库
+      logo: jquary.ico
+      url: https://www.jq22.com/
+      description: 收集最全最新最好的js插件
+    - title: jQuery之家
+      logo: js之家.ico
+      url: http://www.htmleaf.com/
+      description: 扩展你的js插件库
+    - title: 像素大厨(已失效)
+      logo: fancynode.png
+      url: https://www.fancynode.com.cn/
+      description: 从设计到代码，让团队高效协作
+    - title: Bootstrap Studio
+      logo: bs.ico
+      url: https://bootstrapstudio.io/
+      description: 编辑web网站，无需代码
+    - title: CodePen
+      logo: codepen.ico
+      url: https://codepen.io/
+      description: 免费下载css和js模板
+    - title: Zion
+      logo: zion.ico
+      url: https://www.functorz.com/
+      description: 无代码开发微信小程序
+    - title: Markdown-badges
+      logo: badges.png
+      url: https://ileriayo.github.io/markdown-badges/
+      description: 获取markdown写法的badges包
+    - title: 1panel
+      logo: 1panel.png
+      url: https://1panel.cn/
+      description: 开源的服务器web管理面板
+  - term: 云服务器
+    links:
+    - title: 阿里云
+      logo: 阿里云.ico
+      url: https://www.aliyun.com/
+      description: 上云就上阿里云
+    - title: 腾讯云
+      logo: 腾讯云.ico
+      url: https://cloud.tencent.com/
+      description: 产业智变，云启未来
+    - title: 极云普惠云电脑
+      logo: 极云普惠云电脑.ico
+      url: https://www.ji-cloud.cn/
+      description: 云电脑-云游戏-手机变电脑软件
+    - title: Vultr
+      logo: vultr.webp
+      url: https://www.vultr.com/
+      description: 提供了全球多个数据中心，实时部署云服务器，具有高效稳定的性能和安全保障
+    - title: Aws
+      logo: aws.ico
+      url: https://aws.amazon.com/cn/
+      description: 亚马逊云服务，提供了包括计算、存储、数据库、网络等在内的各种云服务
+    - title: DigitalOcean
+      logo: do.ico
+      url: https://m.do.co/c/d88163487411
+      description: 数字海洋，它的特点是简单易用、强大的功能和优秀的性能
+    - title: Google Cloud
+      logo: 谷歌云.ico
+      url: https://cloud.google.com/
+      description: 基于云计算技术的云服务平台，提供包括计算、存储、数据库、网络等多种云服务
+    - title: Azure
+      logo: azure.ico
+      url: https://azure.microsoft.com/
+      description: 微软云提供了各种基础设施即服务（IaaS）、平台即服务（PaaS）和软件即服务（SaaS）
+    - title: Oracle
+      logo: Oracle.ico
+      url: https://www.oracle.com/cn/
+      description: 主要特点包括高性能、高可靠性、高扩展性、安全性好等优点
+    - title: Vercel
+      logo: vercel.ico
+      url: https://vercel.com/
+      description: 轻松地构建、部署和扩展 Web 应用程序。GitHub拉取
+    - title: Railway
+      logo: railway.ico
+      url: https://railway.app/
+      description: 轻松地构建、部署和扩展django
+    - title: Heroku
+      logo: heroku.ico
+      url: https://www.heroku.com/
+      description: 云计算平台，快速构建、部署和托管Web应用程序
+    - title: Cloudflare
+      logo: cloudflare.ico
+      url: https://www.cloudflare.com/zh-cn/
+      description: 大伙都知道的CF
+  - term: 办公学习
+    links:
+    - title: GitHub
+      logo: github.ico
+      url: https://github.com/
+      description: 最热门知名的开源网站
+    - title: GitLab
+      logo: gitlab.ico
+      url: https://about.gitlab.com/
+      description: 开源的代码托管平台，类似于GitHub
+    - title: Gitee
+      logo: gitee.ico
+      url: https://gitee.com/
+      description: GitHub中国镜像站代理
+    - title: R2coding
+      logo: r2c.ico
+      url: https://r2coding.com/
+      description: 编程自学之路，是自学编程以来所用资源和分享内容的大聚合
+    - title: 语雀
+      logo: 语雀.ico
+      url: https://www.yuque.com/
+      description: 优雅高效的在线文档编辑与协同工具
+    - title: 清华大学开源
+      logo: 清华开源.ico
+      url: https://mirror.tuna.tsinghua.edu.cn/
+      description: 具有全球影响力的开源软件镜像站点
+    - title: 有道词典
+      logo: 有道词典.ico
+      url: https://www.youdao.com/
+      description: 免费，即时的多语种在线翻译
+    - title: 谷歌翻译
+      logo: 谷歌翻译.ico
+      url: https://translate.google.cn/
+      description: 谷歌翻译
+    - title: Paperpass
+      logo: paperpass.ico
+      url: https://www.paperpass.com/
+      description: 论文查重，每天免费一篇
+    - title: CSDN
+      logo: csdn.ico
+      url: https://www.csdn.net/
+      description: 中国最大的专业技术社区，包含了众多IT领域的技术文章和技术问答
+    - title: 掘金
+      logo: 掘金.ico
+      url: https://juejin.cn/
+      description: 程序员交流社区和学习平台
+    - title: V2ex
+      logo: v2ex.ico
+      url: https://www.v2ex.com/
+      description: 由设计师、程序员及有创意的人参与的社区
+    - title: Xmind
+      logo: xmind.ico
+      url: https://xmind.cn/
+      description: 方便思维导图的使用
+    - title: PDF在线编辑
+      logo: pdf.ico
+      url: https://onlinepdfedit.com/zh-cn/
+      description: 在线转换和编辑 PDF。合并、填写表单、签名等,无需下载或安装。
+- taxonomy: 艺术设计
+  icon: fas fa-palette fa-lg
+  list:
+  - term: 设计灵感
+    links:
+    - title: Behance
+      logo: https://www.behance.net/favicon.ico
+      url: https://www.behance.net/
+      description: Adobe旗下设计师作品展示平台
+    - title: Dribbble
+      logo: https://dribbble.com/favicon.ico
+      url: https://dribbble.com/
+      description: 设计师社区，展示UI/UX设计作品
+    - title: Pinterest
+      logo: https://www.pinterest.com/favicon.ico
+      url: https://www.pinterest.com/
+      description: 图片分享与灵感收集平台
+    - title: Awwwards
+      logo: https://www.awwwards.com/favicon.ico
+      url: https://www.awwwards.com/
+      description: 优秀网页设计作品展示
+    - title: Designspiration
+      logo: https://www.designspiration.com/favicon.ico
+      url: https://www.designspiration.com/
+      description: 设计灵感搜索引擎
+    - title: Muzli
+      logo: https://muz.li/favicon.ico
+      url: https://muz.li/
+      description: 设计师每日灵感推送
+    - title: 站酷
+      logo: https://www.zcool.com.cn/favicon.ico
+      url: https://www.zcool.com.cn/
+      description: 中国设计师互动平台
+    - title: 优设网
+      logo: https://www.uisdc.com/favicon.ico
+      url: https://www.uisdc.com/
+      description: 设计师学习平台
+  - term: 艺术作品
+    links:
+    - title: ArtStation
+      logo: https://www.artstation.com/favicon.ico
+      url: https://www.artstation.com/
+      description: 专业艺术家作品展示平台
+    - title: DeviantArt
+      logo: https://www.deviantart.com/favicon.ico
+      url: https://www.deviantart.com/
+      description: 全球最大的在线艺术社区
+    - title: 涂鸦王国
+      logo: https://www.gracg.com/favicon.ico
+      url: https://www.gracg.com/
+      description: 中国原创插画设计平台
+    - title: Artsy
+      logo: https://www.artsy.net/favicon.ico
+      url: https://www.artsy.net/
+      description: 在线艺术品收藏平台
+    - title: Saatchi Art
+      logo: https://www.saatchiart.com/favicon.ico
+      url: https://www.saatchiart.com/
+      description: 原创艺术品在线画廊
+  - term: 配色工具
+    links:
+    - title: Adobe Color
+      logo: https://color.adobe.com/favicon.ico
+      url: https://color.adobe.com/
+      description: Adobe配色工具
+    - title: Coolors
+      logo: https://coolors.co/favicon.ico
+      url: https://coolors.co/
+      description: 快速配色方案生成器
+    - title: Color Hunt
+      logo: https://colorhunt.co/favicon.ico
+      url: https://colorhunt.co/
+      description: 精选配色方案分享
+    - title: Paletton
+      logo: https://paletton.com/favicon.ico
+      url: https://paletton.com/
+      description: 配色方案设计工具
+    - title: 中国色
+      logo: http://zhongguose.com/favicon.ico
+      url: http://zhongguose.com/
+      description: 中国传统色彩
+    - title: Nippon Colors
+      logo: https://nipponcolors.com/favicon.ico
+      url: https://nipponcolors.com/
+      description: 日本传统色彩
+  - term: 3D与建模
+    links:
+    - title: Sketchfab
+      logo: https://sketchfab.com/favicon.ico
+      url: https://sketchfab.com/
+      description: 3D模型分享平台
+    - title: TurboSquid
+      logo: https://www.turbosquid.com/favicon.ico
+      url: https://www.turbosquid.com/
+      description: 3D模型市场
+    - title: CGTrader
+      logo: https://www.cgtrader.com/favicon.ico
+      url: https://www.cgtrader.com/
+      description: 3D模型交易平台
+    - title: Free3D
+      logo: https://free3d.com/favicon.ico
+      url: https://free3d.com/
+      description: 免费3D模型下载
+    - title: Poly Haven
+      logo: https://polyhaven.com/favicon.ico
+      url: https://polyhaven.com/
+      description: 免费3D资源库
+  - term: 摄影作品
+    links:
+    - title: Unsplash
+      logo: https://unsplash.com/favicon.ico
+      url: https://unsplash.com/
+      description: 免费高质量图片
+    - title: Pexels
+      logo: https://www.pexels.com/favicon.ico
+      url: https://www.pexels.com/
+      description: 免费图片和视频素材
+    - title: 500px
+      logo: https://500px.com/favicon.ico
+      url: https://500px.com/
+      description: 专业摄影师作品展示
+    - title: Flickr
+      logo: https://www.flickr.com/favicon.ico
+      url: https://www.flickr.com/
+      description: 图片分享社区
+    - title: 图虫
+      logo: https://tuchong.com/favicon.ico
+      url: https://tuchong.com/
+      description: 中国摄影师社区
+  - term: 插画与漫画
+    links:
+    - title: Illustration Age
+      logo: https://illustrationage.com/favicon.ico
+      url: https://illustrationage.com/
+      description: 插画作品展示
+    - title: Illustrators
+      logo: https://www.illustrators.ru/favicon.ico
+      url: https://www.illustrators.ru/
+      description: 插画师作品集
+    - title: 半次元
+      logo: https://bcy.net/favicon.ico
+      url: https://bcy.net/
+      description: ACG创作社区
+    - title: Lofter
+      logo: https://www.lofter.com/favicon.ico
+      url: https://www.lofter.com/
+      description: 轻博客与创作平台
+    - title: 画师通
+      logo: https://www.huashi6.com/favicon.ico
+      url: https://www.huashi6.com/
+      description: 插画师接单平台
+  - term: UI/UX设计
+    links:
+    - title: UI Movement
+      logo: https://uimovement.com/favicon.ico
+      url: https://uimovement.com/
+      description: UI设计动效展示
+    - title: Mobbin
+      logo: https://mobbin.com/favicon.ico
+      url: https://mobbin.com/
+      description: 移动应用设计参考
+    - title: Pttrns
+      logo: https://pttrns.com/favicon.ico
+      url: https://pttrns.com/
+      description: 移动UI设计模式
+    - title: Collect UI
+      logo: http://collectui.com/favicon.ico
+      url: http://collectui.com/
+      description: UI设计灵感收集
+    - title: UI Garage
+      logo: https://uigarage.net/favicon.ico
+      url: https://uigarage.net/
+      description: UI设计作品库
+- taxonomy: AI工具
+  icon: fas fa-robot fa-lg
+  list:
+  - term: AI对话
+    links:
+    - title: ChatGPT
+      logo: https://chat.openai.com/favicon.ico
+      url: https://chat.openai.com/
+      description: OpenAI推出的对话式AI助手
+    - title: Claude
+      logo: https://claude.ai/favicon.ico
+      url: https://claude.ai/
+      description: Anthropic推出的AI助手
+    - title: Gemini
+      logo: https://gemini.google.com/favicon.ico
+      url: https://gemini.google.com/
+      description: Google推出的多模态AI
+    - title: Copilot
+      logo: https://copilot.microsoft.com/favicon.ico
+      url: https://copilot.microsoft.com/
+      description: 微软AI助手
+    - title: DeepSeek
+      logo: https://chat.deepseek.com/favicon.ico
+      url: https://chat.deepseek.com/
+      description: 国产AI大模型领军者
+    - title: Kimi
+      logo: https://kimi.moonshot.cn/favicon.ico
+      url: https://kimi.moonshot.cn/
+      description: 月之暗面推出的长文本AI助手
+    - title: 豆包
+      logo: https://www.doubao.com/favicon.ico
+      url: https://www.doubao.com/chat/
+      description: 字节跳动推出的多模态AI助手
+    - title: 通义千问
+      logo: https://tongyi.aliyun.com/favicon.ico
+      url: https://tongyi.aliyun.com/qianwen/
+      description: 阿里云推出的大语言模型
+    - title: 文心一言
+      logo: https://yiyan.baidu.com/favicon.ico
+      url: https://yiyan.baidu.com/
+      description: 百度推出的AI对话助手
+    - title: 讯飞星火
+      logo: https://xinghuo.xfyun.cn/favicon.ico
+      url: https://xinghuo.xfyun.cn/
+      description: 科大讯飞推出的认知大模型
+    - title: 腾讯元宝
+      logo: https://yuanbao.tencent.com/favicon.ico
+      url: https://yuanbao.tencent.com/
+      description: 腾讯推出的AI助手
+    - title: Perplexity
+      logo: https://www.perplexity.ai/favicon.ico
+      url: https://www.perplexity.ai/
+      description: AI驱动的搜索引擎
+    - title: Character.AI
+      logo: https://character.ai/favicon.ico
+      url: https://character.ai/
+      description: AI角色对话平台
+    - title: Poe
+      logo: https://poe.com/favicon.ico
+      url: https://poe.com/
+      description: 多模型AI聊天平台
+  - term: AI音乐
+    links:
+    - title: Suno
+      logo: https://suno.com/favicon.ico
+      url: https://suno.com/
+      description: AI音乐生成平台
+    - title: Udio
+      logo: https://www.udio.com/favicon.ico
+      url: https://www.udio.com/
+      description: AI音乐创作工具
+    - title: Stable Audio
+      logo: https://stableaudio.com/favicon.ico
+      url: https://stableaudio.com/
+      description: Stability AI音频生成
+    - title: AIVA
+      logo: https://www.aiva.ai/favicon.ico
+      url: https://www.aiva.ai/
+      description: AI作曲助手
+    - title: Soundraw
+      logo: https://soundraw.io/favicon.ico
+      url: https://soundraw.io/
+      description: AI音乐生成器
+    - title: Mubert
+      logo: https://mubert.com/favicon.ico
+      url: https://mubert.com/
+      description: AI生成版权音乐
+    - title: Boomy
+      logo: https://boomy.com/favicon.ico
+      url: https://boomy.com/
+      description: 快速创作AI音乐
+    - title: Loudly
+      logo: https://www.loudly.com/favicon.ico
+      url: https://www.loudly.com/
+      description: AI音乐制作平台
+    - title: Beatoven
+      logo: https://www.beatoven.ai/favicon.ico
+      url: https://www.beatoven.ai/
+      description: AI背景音乐生成
+    - title: Splash
+      logo: https://www.splashmusic.com/favicon.ico
+      url: https://www.splashmusic.com/
+      description: AI音乐创作平台
+  - term: AI视频
+    links:
+    - title: Runway
+      logo: https://runwayml.com/favicon.ico
+      url: https://runwayml.com/
+      description: AI视频生成与编辑平台
+    - title: Pika
+      logo: https://pika.art/favicon.ico
+      url: https://pika.art/
+      description: AI视频生成工具
+    - title: HeyGen
+      logo: https://www.heygen.com/favicon.ico
+      url: https://www.heygen.com/
+      description: AI数字人视频生成
+    - title: D-ID
+      logo: https://www.d-id.com/favicon.ico
+      url: https://www.d-id.com/
+      description: AI数字人视频制作
+    - title: Synthesia
+      logo: https://www.synthesia.io/favicon.ico
+      url: https://www.synthesia.io/
+      description: AI视频生成平台
+    - title: CapCut
+      logo: https://www.capcut.com/favicon.ico
+      url: https://www.capcut.com/
+      description: 剪映国际版AI视频编辑
+    - title: 剪映
+      logo: https://www.capcut.cn/favicon.ico
+      url: https://www.capcut.cn/
+      description: 字节跳动AI视频编辑工具
+    - title: Descript
+      logo: https://www.descript.com/favicon.ico
+      url: https://www.descript.com/
+      description: AI视频音频编辑
+    - title: Fliki
+      logo: https://fliki.ai/favicon.ico
+      url: https://fliki.ai/
+      description: 文本转视频AI工具
+    - title: Pictory
+      logo: https://pictory.ai/favicon.ico
+      url: https://pictory.ai/
+      description: AI视频创作平台
+    - title: InVideo
+      logo: https://invideo.io/favicon.ico
+      url: https://invideo.io/
+      description: AI视频制作工具
+    - title: Lumen5
+      logo: https://lumen5.com/favicon.ico
+      url: https://lumen5.com/
+      description: AI视频内容创作
+  - term: AI Agent
+    links:
+    - title: Midjourney
+      logo: https://www.midjourney.com/favicon.ico
+      url: https://www.midjourney.com/
+      description: AI图像生成领军者
+    - title: DALL-E
+      logo: https://openai.com/favicon.ico
+      url: https://openai.com/dall-e
+      description: OpenAI图像生成模型
+    - title: Stable Diffusion
+      logo: https://stability.ai/favicon.ico
+      url: https://stability.ai/
+      description: 开源AI图像生成
+    - title: Leonardo.AI
+      logo: https://leonardo.ai/favicon.ico
+      url: https://leonardo.ai/
+      description: AI艺术创作平台
+    - title: Civitai
+      logo: https://civitai.com/favicon.ico
+      url: https://civitai.com/
+      description: AI绘画模型社区
+    - title: 文心一格
+      logo: https://yige.baidu.com/favicon.ico
+      url: https://yige.baidu.com/
+      description: 百度AI艺术创作
+    - title: 通义万相
+      logo: https://tongyi.aliyun.com/favicon.ico
+      url: https://tongyi.aliyun.com/wanxiang/
+      description: 阿里AI图像生成
+    - title: ChatPDF
+      logo: https://www.chatpdf.com/favicon.ico
+      url: https://www.chatpdf.com/
+      description: AI识别PDF并对话
+    - title: ChatDOC
+      logo: https://chatdoc.com/favicon.ico
+      url: https://chatdoc.com/
+      description: AI文档分析助手
+    - title: PDF.ai
+      logo: https://pdf.ai/favicon.ico
+      url: https://pdf.ai/
+      description: AI驱动的PDF工具
+    - title: GitHub Copilot
+      logo: https://github.com/favicon.ico
+      url: https://github.com/features/copilot
+      description: AI代码助手
+    - title: Cursor
+      logo: https://cursor.sh/favicon.ico
+      url: https://cursor.sh/
+      description: AI代码编辑器
+    - title: Codeium
+      logo: https://codeium.com/favicon.ico
+      url: https://codeium.com/
+      description: 免费AI代码助手
+    - title: Tabnine
+      logo: https://www.tabnine.com/favicon.ico
+      url: https://www.tabnine.com/
+      description: AI代码补全工具
+    - title: Notion AI
+      logo: https://www.notion.so/favicon.ico
+      url: https://www.notion.so/product/ai
+      description: Notion AI写作助手
+    - title: Jasper
+      logo: https://www.jasper.ai/favicon.ico
+      url: https://www.jasper.ai/
+      description: AI营销文案生成
+    - title: Copy.ai
+      logo: https://www.copy.ai/favicon.ico
+      url: https://www.copy.ai/
+      description: AI文案创作工具
+    - title: Grammarly
+      logo: https://www.grammarly.com/favicon.ico
+      url: https://www.grammarly.com/
+      description: AI写作助手
+    - title: 秘塔写作猫
+      logo: https://xiezuocat.com/favicon.ico
+      url: https://xiezuocat.com/
+      description: AI中文写作助手
+    - title: Gamma
+      logo: https://gamma.app/favicon.ico
+      url: https://gamma.app/
+      description: AI演示文稿生成
+    - title: Tome
+      logo: https://tome.app/favicon.ico
+      url: https://tome.app/
+      description: AI故事演示工具
+    - title: Beautiful.ai
+      logo: https://www.beautiful.ai/favicon.ico
+      url: https://www.beautiful.ai/
+      description: AI演示设计工具
+    - title: Mindshow
+      logo: https://www.mindshow.fun/favicon.ico
+      url: https://www.mindshow.fun/
+      description: AI生成PPT
+    - title: BibiGPT
+      logo: https://b.jimmylv.cn/favicon.ico
+      url: https://b.jimmylv.cn/
+      description: AI一键总结视频
+    - title: Glarity
+      logo: https://glarity.app/favicon.ico
+      url: https://glarity.app/
+      description: AI视频摘要工具
+    - title: Lalal.ai
+      logo: https://www.lalal.ai/favicon.ico
+      url: https://www.lalal.ai/
+      description: 智能人声与音乐分离
+    - title: Adobe Podcast
+      logo: https://podcast.adobe.com/favicon.ico
+      url: https://podcast.adobe.com/
+      description: AI音频增强工具
+    - title: Remove.bg
+      logo: https://www.remove.bg/favicon.ico
+      url: https://www.remove.bg/
+      description: AI抠图工具
+    - title: Bigjpg
+      logo: https://bigjpg.com/favicon.ico
+      url: https://bigjpg.com/
+      description: AI图片无损放大
+    - title: Jpghd
+      logo: https://jpghd.com/favicon.ico
+      url: https://jpghd.com/
+      description: AI高清修复图片
+    - title: Cleanup.pictures
+      logo: https://cleanup.pictures/favicon.ico
+      url: https://cleanup.pictures/
+      description: AI图片去水印
+    - title: AI论文生成
+      logo: https://www.aibiye.com/favicon.ico
+      url: https://www.aibiye.com/
+      description: AI论文生成工具
+    - title: PaperFake
+      logo: https://paperfake.cn/favicon.ico
+      url: https://paperfake.cn/
+      description: AI写论文助手
+    - title: 笔灵AI
+      logo: https://ibiling.cn/favicon.ico
+      url: https://ibiling.cn/
+      description: AI论文写作平台
+    - title: Replika
+      logo: https://replika.com/favicon.ico
+      url: https://replika.com/
+      description: AI伴侣聊天机器人
+    - title: Hugging Face
+      logo: https://huggingface.co/favicon.ico
+      url: https://huggingface.co/
+      description: AI模型社区平台
+- taxonomy: 科研工具
+  icon: fas fa-tools fa-lg
+  list:
+  - term: 文献管理
+    links:
+    - title: Zotero
+      logo: https://www.zotero.org/favicon.ico
+      url: https://www.zotero.org/
+      description: 开源免费的文献管理工具
+    - title: Mendeley
+      logo: https://www.mendeley.com/favicon.ico
+      url: https://www.mendeley.com/
+      description: Elsevier旗下文献管理软件
+    - title: EndNote
+      logo: https://endnote.com/favicon.ico
+      url: https://endnote.com/
+      description: 专业文献管理与引用工具
+    - title: NoteExpress
+      logo: http://www.inoteexpress.com/favicon.ico
+      url: http://www.inoteexpress.com/
+      description: 国产文献管理软件
+    - title: ReadCube Papers
+      logo: https://www.papersapp.com/favicon.ico
+      url: https://www.papersapp.com/
+      description: 现代化文献管理工具
+    - title: Citavi
+      logo: https://www.citavi.com/favicon.ico
+      url: https://www.citavi.com/
+      description: 文献管理与知识组织
+    - title: RefWorks
+      logo: https://refworks.proquest.com/favicon.ico
+      url: https://refworks.proquest.com/
+      description: 在线文献管理工具
+  - term: 数据分析与可视化
+    links:
+    - title: Origin
+      logo: https://www.originlab.com/favicon.ico
+      url: https://www.originlab.com/
+      description: 科研数据分析与绘图软件
+    - title: MATLAB
+      logo: https://www.mathworks.com/favicon.ico
+      url: https://www.mathworks.com/products/matlab.html
+      description: 数值计算与可视化平台
+    - title: SPSS
+      logo: https://www.ibm.com/favicon.ico
+      url: https://www.ibm.com/spss
+      description: 统计分析软件
+    - title: GraphPad Prism
+      logo: https://www.graphpad.com/favicon.ico
+      url: https://www.graphpad.com/
+      description: 生物统计与科学绘图
+    - title: R Studio
+      logo: https://posit.co/favicon.ico
+      url: https://posit.co/products/open-source/rstudio/
+      description: R语言集成开发环境
+    - title: Python
+      logo: https://www.python.org/favicon.ico
+      url: https://www.python.org/
+      description: 数据科学编程语言
+    - title: Jupyter
+      logo: https://jupyter.org/favicon.ico
+      url: https://jupyter.org/
+      description: 交互式计算笔记本
+    - title: Tableau
+      logo: https://www.tableau.com/favicon.ico
+      url: https://www.tableau.com/
+      description: 数据可视化平台
+    - title: SigmaPlot
+      logo: https://systatsoftware.com/favicon.ico
+      url: https://systatsoftware.com/products/sigmaplot/
+      description: 科学数据分析与绘图
+  - term: 绘图与制图
+    links:
+    - title: ChemDraw
+      logo: https://perkinelmerinformatics.com/favicon.ico
+      url: https://perkinelmerinformatics.com/products/research/chemdraw/
+      description: 化学结构式绘图软件
+    - title: BioRender
+      logo: https://www.biorender.com/favicon.ico
+      url: https://www.biorender.com/
+      description: 生物医学科研插图制作
+    - title: Visio
+      logo: https://www.microsoft.com/favicon.ico
+      url: https://www.microsoft.com/microsoft-365/visio/
+      description: 微软流程图绘制工具
+    - title: Draw.io
+      logo: https://www.drawio.com/favicon.ico
+      url: https://www.drawio.com/
+      description: 免费在线流程图工具
+    - title: Inkscape
+      logo: https://inkscape.org/favicon.ico
+      url: https://inkscape.org/
+      description: 开源矢量图形编辑器
+    - title: Adobe Illustrator
+      logo: https://www.adobe.com/favicon.ico
+      url: https://www.adobe.com/products/illustrator.html
+      description: 专业矢量图形设计
+    - title: CorelDRAW
+      logo: https://www.coreldraw.com/favicon.ico
+      url: https://www.coreldraw.com/
+      description: 矢量图形设计软件
+    - title: PyMOL
+      logo: https://pymol.org/favicon.ico
+      url: https://pymol.org/
+      description: 分子可视化系统
+  - term: 科研写作
+    links:
+    - title: LaTeX
+      logo: https://www.latex-project.org/favicon.ico
+      url: https://www.latex-project.org/
+      description: 专业排版系统
+    - title: Overleaf
+      logo: https://www.overleaf.com/favicon.ico
+      url: https://www.overleaf.com/
+      description: 在线LaTeX编辑器
+    - title: Grammarly
+      logo: https://www.grammarly.com/favicon.ico
+      url: https://www.grammarly.com/
+      description: 英文写作语法检查
+    - title: QuillBot
+      logo: https://quillbot.com/favicon.ico
+      url: https://quillbot.com/
+      description: AI改写与润色工具
+    - title: DeepL
+      logo: https://www.deepl.com/favicon.ico
+      url: https://www.deepl.com/
+      description: AI翻译工具
+    - title: Writefull
+      logo: https://www.writefull.com/favicon.ico
+      url: https://www.writefull.com/
+      description: 学术写作AI助手
+    - title: Trinka
+      logo: https://www.trinka.ai/favicon.ico
+      url: https://www.trinka.ai/
+      description: 学术英语语法检查
+    - title: Ginger
+      logo: https://www.gingersoftware.com/favicon.ico
+      url: https://www.gingersoftware.com/
+      description: 英语写作校对工具
+  - term: 实验记录与管理
+    links:
+    - title: LabArchives
+      logo: https://www.labarchives.com/favicon.ico
+      url: https://www.labarchives.com/
+      description: 电子实验记录本
+    - title: Benchling
+      logo: https://www.benchling.com/favicon.ico
+      url: https://www.benchling.com/
+      description: 生命科学研发平台
+    - title: LabFolder
+      logo: https://www.labfolder.com/favicon.ico
+      url: https://www.labfolder.com/
+      description: 实验室数据管理
+    - title: RSpace
+      logo: https://www.researchspace.com/favicon.ico
+      url: https://www.researchspace.com/
+      description: 电子实验记录系统
+    - title: eLabFTW
+      logo: https://www.elabftw.net/favicon.ico
+      url: https://www.elabftw.net/
+      description: 开源电子实验记录
+  - term: 论文查重与降重
+    links:
+    - title: 科研图片查重
+      logo: https://www.citexs.com/favicon.ico
+      url: https://www.citexs.com/imagetwin
+      description: 科研图片查重
+    - title: PaperFake降重降AI
+      logo: https://paperfake.cn/favicon.ico
+      url: https://paperfake.cn/?q=biadhgccjbb
+      description: PaperFake降重降AI
+    - title: 笔灵AI降重
+      logo: https://ibiling.cn/favicon.ico
+      url: https://ibiling.cn/jiangchong?from=kyjc
+      description: 笔灵AI降重
+  - term: 科研服务
+    links:
+    - title: 最新学术会议
+      logo: https://ais.cn/favicon.ico
+      url: https://ais.cn/u/r6BR7f
+      description: 最新学术会议
+    - title: 免费科研算力
+      logo: https://www.compshare.cn/favicon.ico
+      url: https://www.compshare.cn/
+      description: 免费科研算力
+    - title: Google Colab
+      logo: https://colab.research.google.com/favicon.ico
+      url: https://colab.research.google.com/
+      description: 免费云端Jupyter笔记本
+    - title: Kaggle
+      logo: https://www.kaggle.com/favicon.ico
+      url: https://www.kaggle.com/
+      description: 数据科学竞赛平台
+- taxonomy: 学术资源
+  icon: fas fa-graduation-cap fa-lg
+  list:
+  - term: 特别推荐
+    links:
+    - title: 科研通
+      logo: https://www.ablesci.com/favicon.ico
+      url: https://www.ablesci.com/
+      description: 学术文献互助与共享平台
+    - title: arXiv
+      logo: https://arxiv.org/favicon.ico
+      url: https://arxiv.org/
+      description: 开放获取预印本库
+    - title: CNKI AI
+      logo: https://ai.cnki.net/favicon.ico
+      url: https://ai.cnki.net/chat
+      description: 知网AI助手
+    - title: 万方
+      logo: https://www.wanfangdata.com.cn/favicon.ico
+      url: https://www.wanfangdata.com.cn/
+      description: 提供各类学术文献、数据资源等服务的平台
+    - title: Scientific Journal Rank（SJR）
+      logo: https://www.scimagojr.com/favicon.ico
+      url: https://www.scimagojr.com/
+      description: 提供期刊排名与影响力评估的工具
+    - title: 维普
+      logo: https://qikan.cqvip.com/favicon.ico
+      url: https://qikan.cqvip.com/
+      description: 国内知名的中文期刊数据库
+    - title: JANE
+      logo: https://jane.biosemantics.org/favicon.ico
+      url: https://jane.biosemantics.org/
+      description: 全球广泛应用的期刊匹配工具
+    - title: 知网
+      logo: https://www.cnki.net/favicon.ico
+      url: https://www.cnki.net/
+      description: 中国最大的学术文献数据库之一
+    - title: PDF爱好者的在线工具
+      logo: https://www.ilovepdf.com/favicon.ico
+      url: https://www.ilovepdf.com/zh-cn
+      description: 完全免费、易于使用、丰富的PDF处理工具
+    - title: Science
+      logo: https://www.science.org/favicon.ico
+      url: https://www.science.org/
+      description: 国际权威的综合性科学期刊
+    - title: EI
+      logo: https://www.engineeringvillage.com/favicon.ico
+      url: https://www.engineeringvillage.com/home.url
+      description: 工程索引
+    - title: 必应学术
+      logo: https://cn.bing.com/favicon.ico
+      url: https://cn.bing.com/academic/?mkt=zh-CN
+      description: 微软旗下的学术搜索引擎
+    - title: 百度学术
+      logo: https://xueshu.baidu.com/favicon.ico
+      url: https://xueshu.baidu.com/
+      description: 百度中文文献搜索
+    - title: PubMed
+      logo: https://pubmed.ncbi.nlm.nih.gov/favicon.ico
+      url: https://pubmed.ncbi.nlm.nih.gov/
+      description: 免费医学文献检索数据库
+    - title: Web of Science
+      logo: https://www.webofscience.com/favicon.ico
+      url: https://www.webofscience.com/wos
+      description: 综合性学术信息检索平台
+    - title: 期刊分区表
+      logo: https://www.fenqubiao.com/favicon.ico
+      url: https://www.fenqubiao.com/
+      description: 中国科学院文献情报中心科学计量中心成果
+    - title: LetPub 期刊查询
+      logo: https://www.letpub.com.cn/favicon.ico
+      url: https://www.letpub.com.cn/index.php?page=journalapp&view=search
+      description: LetPub平台推出的期刊查询工具
+    - title: DeepL翻译
+      logo: https://www.deepl.com/favicon.ico
+      url: https://www.deepl.com/zh/translator
+      description: AI驱动精准翻译
+    - title: QuillBot
+      logo: https://quillbot.com/favicon.ico
+      url: https://quillbot.com/
+      description: SCI论文改写神器
+    - title: 知网期刊查询
+      logo: https://navi.cnki.net/favicon.ico
+      url: https://navi.cnki.net/knavi/journals/index
+      description: 中国知网出版来源导航
+    - title: Elsevier Journal Finder
+      logo: https://journalfinder.elsevier.com/favicon.ico
+      url: https://journalfinder.elsevier.com/
+      description: 爱思唯尔期刊推荐工具
+  - term: 学术AI工具
+    links:
+    - title: SCISPACE
+      logo: https://scispace.com/favicon.ico
+      url: https://scispace.com/zh
+      description: 文献综述、AI辅助阅读文献
+    - title: TXYZ
+      logo: https://app.txyz.ai/favicon.ico
+      url: https://app.txyz.ai/
+      description: AI文献处理类学术工具
+    - title: Simpletex
+      logo: https://www.simpletex.cn/favicon.ico
+      url: https://www.simpletex.cn/
+      description: AI驱动的智能公式/文档识别编辑软件
+    - title: WisPaper AI
+      logo: https://www.wispaper.ai/favicon.ico
+      url: https://www.wispaper.ai/
+      description: 复旦大学开发的智能学术工具
+    - title: Scholarcy
+      logo: https://www.scholarcy.com/favicon.ico
+      url: https://www.scholarcy.com/
+      description: AI学术研究辅助工具
+    - title: ChatSPSS
+      logo: https://chatspss.cn/favicon.ico
+      url: https://chatspss.cn/login
+      description: 智能数据分析助手
+    - title: AiShort
+      logo: https://www.aishort.top/favicon.ico
+      url: https://www.aishort.top/
+      description: AI指令清单
+    - title: ima知识库
+      logo: https://ima.qq.com/favicon.ico
+      url: https://ima.qq.com/
+      description: 打造个人科研知识库
+    - title: 星火科研助手
+      logo: https://paperlogin.iflytek.com/favicon.ico
+      url: https://paperlogin.iflytek.com/
+      description: 科大讯飞和中国科学院文献情报中心联合出品
+    - title: Gatsbi
+      logo: https://sg.gatsbi.com/favicon.ico
+      url: https://sg.gatsbi.com/zh
+      description: 专注于学术与创新研究的人工智能辅助工具
+    - title: ChatHub
+      logo: https://app.chathub.gg/favicon.ico
+      url: https://app.chathub.gg/
+      description: 多模型并行输出
+    - title: Consensus
+      logo: https://consensus.app/favicon.ico
+      url: https://consensus.app/
+      description: AI问答式学术搜索
+    - title: Elicit
+      logo: https://elicit.org/favicon.ico
+      url: https://elicit.org/
+      description: AI驱动的文献综述与检索助手
+    - title: PromptPilot
+      logo: https://promptpilot.volcengine.com/favicon.ico
+      url: https://promptpilot.volcengine.com/home
+      description: 字节AI提示词优化
+    - title: Research Rabbit
+      logo: https://www.researchrabbitapp.com/favicon.ico
+      url: https://www.researchrabbitapp.com/
+      description: AI算法推荐相关研究
+    - title: 玻尔
+      logo: https://www.bohrium.com/favicon.ico
+      url: https://www.bohrium.com/
+      description: 科学家的Ai文献助手
+    - title: AMiner
+      logo: https://www.aminer.cn/favicon.ico
+      url: https://www.aminer.cn/
+      description: 功能强大、数据权威的学术研究平台
+    - title: 百维智搜
+      logo: https://super.cqvip.com/favicon.ico
+      url: https://super.cqvip.com/search
+      description: 维普科创助手平台的核心检索功能
+    - title: 维普AI综述生成
+      logo: https://super.cqvip.com/favicon.ico
+      url: https://super.cqvip.com/ai-summarize
+      description: 一站式AI科研平台
+    - title: DeepSeek
+      logo: https://chat.deepseek.com/favicon.ico
+      url: https://chat.deepseek.com/
+      description: 国产AI大模型领军者
+    - title: 豆包
+      logo: https://www.doubao.com/favicon.ico
+      url: https://www.doubao.com/chat/
+      description: 字节跳动推出的多模态AI助手
+    - title: Kimi
+      logo: https://www.kimi.com/favicon.ico
+      url: https://www.kimi.com/
+      description: 月之暗面推出的国产AI助手
+    - title: CNKI AI
+      logo: https://ai.cnki.net/favicon.ico
+      url: https://ai.cnki.net/chat
+      description: 知网Ai助手
+    - title: 秘塔AI搜索
+      logo: https://metaso.cn/favicon.ico
+      url: https://metaso.cn/
+      description: 智能搜索引擎
+    - title: 通义千问
+      logo: https://www.tongyi.com/favicon.ico
+      url: https://www.tongyi.com/qianwen/
+      description: 阿里云推出的多模态大语言模型平台
+    - title: 腾讯元宝
+      logo: https://yuanbao.tencent.com/favicon.ico
+      url: https://yuanbao.tencent.com/chat/naQivTmsDa
+      description: 基于混元大模型的AI助手
+    - title: 讯飞星火
+      logo: https://xinghuo.xfyun.cn/favicon.ico
+      url: https://xinghuo.xfyun.cn/desk?ch=xh_1LP7Sm
+      description: 科大讯飞推出的国产自主可控认知大模型
+  - term: 中文文献
+    links:
+    - title: 国研网
+      logo: https://edu.drcnet.com.cn/favicon.ico
+      url: https://edu.drcnet.com.cn/
+      description: 国务院发展研究中心信息网
+    - title: 人大复印报刊资料
+      logo: http://www.rdfybk.com/favicon.ico
+      url: http://www.rdfybk.com/
+      description: 人大复印报刊资料全文数据库
+    - title: 高校财经数据库
+      logo: http://www.bjinfobank.com/favicon.ico
+      url: http://www.bjinfobank.com/
+      description: 拥有14个专业数据库
+    - title: OpenSign公益性学术资源服务平台
+      logo: https://opens.lib.tsinghua.edu.cn/favicon.ico
+      url: https://opens.lib.tsinghua.edu.cn/home
+      description: 清华大学图书馆开放科学支持计划
+    - title: 中医智库
+      logo: https://zhongyigen.com/favicon.ico
+      url: https://zhongyigen.com/#
+      description: 专注于中医药领域的大数据平台
+    - title: 爱学术
+      logo: https://www.iresearchbook.cn/favicon.ico
+      url: https://www.iresearchbook.cn/f
+      description: 专注于整合外文学术电子书的数字资源平台
+    - title: 书格
+      logo: https://www.shuge.org/favicon.ico
+      url: https://www.shuge.org/
+      description: 免费开放的在线古籍数字图书馆
+    - title: 文津搜索
+      logo: http://find.nlc.cn/favicon.ico
+      url: http://find.nlc.cn/
+      description: 中国国家图书馆推出的核心检索平台
+    - title: 工程科技数字图书馆
+      logo: https://ebooks.cmpbook.com/favicon.ico
+      url: https://ebooks.cmpbook.com/index
+      description: 机械工业出版社开发和运营的专业电子出版物平台
+    - title: 中国近代经济思想文献数据库
+      logo: https://economics.hep.com.cn/favicon.ico
+      url: https://economics.hep.com.cn/
+      description: 中国近代经济思想的文献资料
+    - title: 中国心理科学信息中心
+      logo: https://lib.psych.ac.cn/favicon.ico
+      url: https://lib.psych.ac.cn/library/home/index
+      description: 中国科学院心理研究所的内部服务平台
+    - title: 中国生物医学文献服务系统
+      logo: https://www.sinomed.ac.cn/favicon.ico
+      url: https://www.sinomed.ac.cn/index.jsp
+      description: 国内权威的生物医学文献门户
+    - title: 中国科学院文献情报中心
+      logo: https://www.las.ac.cn/favicon.ico
+      url: https://www.las.ac.cn/
+      description: 中国科学院直属的国家级研究型科技信息机构
+    - title: 北大法宝
+      logo: https://www.pkulaw.com/favicon.ico
+      url: https://www.pkulaw.com/
+      description: 智能型法律信息检索系统
+    - title: PubScholar 公益学术平台
+      logo: https://pubscholar.cn/favicon.ico
+      url: https://pubscholar.cn/
+      description: 为满足全国科技界和全社会科技创新的学术资源基础保障需求而建设的公益学术平台
+    - title: 万方
+      logo: https://www.wanfangdata.com.cn/favicon.ico
+      url: https://www.wanfangdata.com.cn/
+      description: 提供各类学术文献、数据资源等服务的平台
+    - title: 维普
+      logo: https://qikan.cqvip.com/favicon.ico
+      url: https://qikan.cqvip.com/
+      description: 国内知名的中文期刊数据库
+    - title: 科学文库
+      logo: https://book.sciencereading.cn/favicon.ico
+      url: https://book.sciencereading.cn/
+      description: 提供专业的科学文献阅读与下载服务
+    - title: 知网
+      logo: https://www.cnki.net/favicon.ico
+      url: https://www.cnki.net/
+      description: 中国最大的学术文献数据库之一
+    - title: ChinaXiv
+      logo: https://chinaxiv.org/favicon.ico
+      url: https://chinaxiv.org/
+      description: 中国科学院科技论文预发布平台
+    - title: 超星期刊
+      logo: https://qikan.chaoxing.com/favicon.ico
+      url: https://qikan.chaoxing.com/
+      description: 提供丰富的期刊资源
+    - title: 博看期刊
+      logo: http://new.bookan.com.cn/favicon.ico
+      url: http://new.bookan.com.cn/
+      description: 提供大量电子版期刊
+    - title: 汉斯期刊
+      logo: https://www.hanspub.org/favicon.ico
+      url: https://www.hanspub.org/
+      description: 开源中文期刊出版平台
+    - title: 读秀学术搜索
+      logo: https://edu.duxiu.com/favicon.ico
+      url: https://edu.duxiu.com/
+      description: 提供文献搜索、文献传递等服务的学术平台
+    - title: 中国国家数字图书馆
+      logo: https://www.nlc.cn/favicon.ico
+      url: https://www.nlc.cn/
+      description: 国家总书库
+    - title: 大学数字图书馆
+      logo: https://cadal.edu.cn/favicon.ico
+      url: https://cadal.edu.cn/
+      description: 整合了多所大学的数字图书馆资源
+    - title: 中国社会科学院图书馆
+      logo: http://www.lib.cass.org.cn/favicon.ico
+      url: http://www.lib.cass.org.cn/
+      description: 为社会科学研究提供文献资源保障和服务
+    - title: 国家哲学社会科学文献中心
+      logo: https://www.ncpssd.cn/favicon.ico
+      url: https://www.ncpssd.cn/
+      description: 为哲学社会科学研究提供文献支持和服务
+  - term: 英文文献
+    links:
+    - title: PNAS
+      logo: https://www.pnas.org/favicon.ico
+      url: https://www.pnas.org/
+      description: 美国国家科学院院刊
+    - title: IEEE
+      logo: https://ieeexplore.ieee.org/favicon.ico
+      url: https://ieeexplore.ieee.org/Xplore/home.jsp
+      description: 电子、电气、计算机领域研究
+    - title: IOP Science
+      logo: https://iopscience.iop.org/favicon.ico
+      url: https://iopscience.iop.org/
+      description: 物理科学与相关领域全球领先的专业学术出版机构
+    - title: ACS
+      logo: https://pubs.acs.org/favicon.ico
+      url: https://pubs.acs.org/
+      description: 化学领域最权威、最具影响力的出版机构和专业组织
+    - title: Frontiers
+      logo: https://journal.hep.com.cn/favicon.ico
+      url: https://journal.hep.com.cn/hep/EN/home
+      description: 教育部主管的大型英文学术期刊集群
+    - title: EBSCO
+      logo: https://www.ebsco.com/favicon.ico
+      url: https://www.ebsco.com/
+      description: EBSCO学术主题型数据库
+    - title: Journal Storage
+      logo: https://www.jstor.org/favicon.ico
+      url: https://www.jstor.org/
+      description: JSTOR收录的期刊品质很高
+    - title: MDPI
+      logo: https://www.mdpi.com/favicon.ico
+      url: https://www.mdpi.com/
+      description: 全球知名的开放获取学术出版机构
+    - title: Springer
+      logo: https://link.springer.com/favicon.ico
+      url: https://link.springer.com/
+      description: 全球自然科学、工程技术及医学领域最具影响力的图书
+    - title: Web of Science
+      logo: https://www.webofscience.com/favicon.ico
+      url: https://www.webofscience.com/wos
+      description: 全球知名的学术文献数据库
+    - title: APA
+      logo: https://www.apa.org/favicon.ico
+      url: https://www.apa.org/
+      description: 美国心理学会
+    - title: Nature
+      logo: https://www.nature.com/favicon.ico
+      url: https://www.nature.com/
+      description: 世界上最具影响力的科学期刊之一
+    - title: ProQuest
+      logo: https://www.proquest.com/favicon.ico
+      url: https://www.proquest.com/
+      description: 全球知名的信息服务提供商
+    - title: CELL
+      logo: https://www.cell.com/favicon.ico
+      url: https://www.cell.com/cell/home
+      description: 专注于生命科学领域的顶级学术期刊
+    - title: AMS
+      logo: https://mathscinet.ams.org/favicon.ico
+      url: https://mathscinet.ams.org/mathscinet/publications-search
+      description: 美国数学学会
+    - title: Science
+      logo: https://www.science.org/favicon.ico
+      url: https://www.science.org/
+      description: 国际权威的综合性科学期刊
+    - title: PubChem
+      logo: https://pubchem.ncbi.nlm.nih.gov/favicon.ico
+      url: https://pubchem.ncbi.nlm.nih.gov/
+      description: 美国国家医学图书馆维护的化学物质数据库
+    - title: ScienceDirect
+      logo: https://www.sciencedirect.com/favicon.ico
+      url: https://www.sciencedirect.com/
+      description: 爱思唯尔旗下的学术数据库
+    - title: arXiv
+      logo: https://arxiv.org/favicon.ico
+      url: https://arxiv.org/
+      description: 开放获取的电子预印本平台
+    - title: Wiley
+      logo: https://onlinelibrary.wiley.com/favicon.ico
+      url: https://onlinelibrary.wiley.com/
+      description: 全球知名的学术出版商
+    - title: PubMed
+      logo: https://pubmed.ncbi.nlm.nih.gov/favicon.ico
+      url: https://pubmed.ncbi.nlm.nih.gov/
+      description: 免费医学文献检索数据库
+    - title: AIP
+      logo: https://pubs.aip.org/favicon.ico
+      url: https://pubs.aip.org/
+      description: 美国物理学会
+    - title: EI
+      logo: https://www.engineeringvillage.com/favicon.ico
+      url: https://www.engineeringvillage.com/home.url
+      description: 工程索引
+    - title: APS
+      logo: https://www.aps.org/favicon.ico
+      url: https://www.aps.org/
+      description: 美国物理学会
+    - title: ACM
+      logo: https://dl.acm.org/favicon.ico
+      url: https://dl.acm.org/
+      description: 美国计算机协会
+    - title: JAMA
+      logo: https://jamanetwork.com/favicon.ico
+      url: https://jamanetwork.com/
+      description: 美国医学会杂志
+    - title: ASCE
+      logo: https://www.asce.org/favicon.ico
+      url: https://www.asce.org/
+      description: 美国土木工程师协会
+    - title: Lancet
+      logo: https://www.thelancet.com/favicon.ico
+      url: https://www.thelancet.com/
+      description: 柳叶刀
+    - title: NEJM
+      logo: https://www.nejm.org/favicon.ico
+      url: https://www.nejm.org/
+      description: 新英格兰医学杂志
+    - title: BMJ
+      logo: https://www.bmj.com/favicon.ico
+      url: https://www.bmj.com/
+      description: 英国医学杂志

@@ -1,0 +1,19 @@
+- item: 首页
+  icon: fa fa-home
+  link: "./"
+
+- item: 作者
+  icon: fa fa-user-secret
+  link: https://blog.8666886.xyz
+
+- item: 博客
+  icon: fa fa-blog
+  link:  https://blog.8666886.xyz
+
+- item: USC资源库
+  icon: fa fa-cog
+  link: ""
+  list:
+    - name: USC资源库
+      icon: fab fa-github-alt
+      link: "https://my.feishu.cn/wiki/PaASwTqboiHSeNkM1vocWvXinYb?sheet=dXWHdo"
